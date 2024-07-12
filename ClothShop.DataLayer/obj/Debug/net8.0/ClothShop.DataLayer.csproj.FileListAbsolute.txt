@@ -1,0 +1,15 @@
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\bin\Debug\net8.0\ClothShop.DataLayer.deps.json
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\bin\Debug\net8.0\ClothShop.DataLayer.runtimeconfig.json
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\bin\Debug\net8.0\ClothShop.DataLayer.dll
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\bin\Debug\net8.0\ClothShop.DataLayer.pdb
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\ClothShop.DataLayer.csproj.AssemblyReference.cache
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\ClothShop.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\ClothShop.DataLayer.AssemblyInfoInputs.cache
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\ClothShop.DataLayer.AssemblyInfo.cs
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\ClothShop.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\ClothShop.DataLayer.sourcelink.json
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\ClothShop.DataLayer.dll
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\refint\ClothShop.DataLayer.dll
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\ClothShop.DataLayer.pdb
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\ClothShop.DataLayer.genruntimeconfig.cache
+C:\Users\MohammadMehdi\source\repos\ClothShop\ClothShop.DataLayer\obj\Debug\net8.0\ref\ClothShop.DataLayer.dll
