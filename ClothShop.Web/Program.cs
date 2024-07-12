@@ -1,3 +1,5 @@
+using ClothShop.Core.Service;
+using ClothShop.Core.Service.Interface;
 using ClothShop.DataLayer.Context;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Cors.Infrastructure;
@@ -25,7 +27,7 @@ builder.Services.AddDbContext<ShopContext>(options =>
 #region Ioc
 
 
-//builder.Services.AddTransient<IUserServices, UserServices>();
+builder.Services.AddTransient<IUserService, UserService>();
 //builder.Services.AddTransient<IViewRenderService, RenderViewToString>();
 //builder.Services.AddTransient<IPermitionServices, PermitionServices>();
 //builder.Services.AddTransient<ICourseService, CourseService>();
@@ -57,7 +59,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.MapGet("/", () => "Hello World!");
+
 
 
 app.UseStaticFiles();
@@ -67,16 +69,16 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 
-//app.UseEndpoints(endpoints =>
-//{
-//    endpoints.MapControllerRoute(
-//        name: "areaRoute",
-//        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "areaRoute",
+        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
-//    endpoints.MapControllerRoute(
-//        name: "default",
-//        pattern: "{controller=Home}/{action=Index}/{id?}");
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
 
-//});
+});
 
 app.Run();

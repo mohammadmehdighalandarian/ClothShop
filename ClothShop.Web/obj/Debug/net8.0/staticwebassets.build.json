@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gukSAabPSIRZhY5RMakaqueek3aegY8Pwimfuvz9paQ=",
+  "Hash": "acFSNZmqN4kP9E4ZmW3x3f+HYFQSg7dkwCQ77TTZje0=",
   "Source": "ClothShop.Web",
   "BasePath": "_content/ClothShop.Web",
   "Mode": "Default",
@@ -10,17 +10,55 @@
     {
       "Name": "ClothShop.Web\\wwwroot",
       "Source": "ClothShop.Web",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ClothShop.Web.styles.css",
+      "SourceId": "ClothShop.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/ClothShop.Web",
+      "RelativePath": "ClothShop.Web.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ClothShop.Web.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ClothShop.Web.bundle.scp.css",
+      "SourceId": "ClothShop.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ClothShop.Web",
+      "RelativePath": "ClothShop.Web.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ClothShop.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\bootstrap.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/css/bootstrap.css",
       "AssetKind": "All",
@@ -36,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\bootstrap.min.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -55,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\bootstrap-rtl.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\bootstrap-rtl.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/css/bootstrap-rtl.css",
       "AssetKind": "All",
@@ -74,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\bootstrap-rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/css/plugins/dataTables/dataTables.bootstrap.css",
       "AssetKind": "All",
@@ -93,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/css/plugins/morris/morris-0.4.3.min.css",
       "AssetKind": "All",
@@ -112,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/css/plugins/social-buttons/social-buttons.css",
       "AssetKind": "All",
@@ -131,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\plugins\\timeline\\timeline.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\plugins\\timeline\\timeline.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/css/plugins/timeline/timeline.css",
       "AssetKind": "All",
@@ -150,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\plugins\\timeline\\timeline.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\sb-admin.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\css\\sb-admin.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/css/sb-admin.css",
       "AssetKind": "All",
@@ -169,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\css\\sb-admin.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/css/font-awesome.css",
       "AssetKind": "All",
@@ -188,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.min.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.min.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/css/font-awesome.min.css",
       "AssetKind": "All",
@@ -207,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -226,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -245,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -264,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -283,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -302,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\bordered-pulled.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\bordered-pulled.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/bordered-pulled.less",
       "AssetKind": "All",
@@ -321,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\bordered-pulled.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\core.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\core.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/core.less",
       "AssetKind": "All",
@@ -340,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\core.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\fixed-width.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\fixed-width.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/fixed-width.less",
       "AssetKind": "All",
@@ -359,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\fixed-width.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\font-awesome.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\font-awesome.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/font-awesome.less",
       "AssetKind": "All",
@@ -378,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\font-awesome.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\icons.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\icons.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/icons.less",
       "AssetKind": "All",
@@ -397,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\icons.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\larger.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\larger.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/larger.less",
       "AssetKind": "All",
@@ -416,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\larger.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\list.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\list.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/list.less",
       "AssetKind": "All",
@@ -435,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\list.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\mixins.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\mixins.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/mixins.less",
       "AssetKind": "All",
@@ -454,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\mixins.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\path.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\path.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/path.less",
       "AssetKind": "All",
@@ -473,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\path.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\rotated-flipped.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\rotated-flipped.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/rotated-flipped.less",
       "AssetKind": "All",
@@ -492,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\rotated-flipped.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\spinning.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\spinning.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/spinning.less",
       "AssetKind": "All",
@@ -511,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\spinning.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\stacked.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\stacked.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/stacked.less",
       "AssetKind": "All",
@@ -530,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\stacked.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\variables.less",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\less\\variables.less",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/less/variables.less",
       "AssetKind": "All",
@@ -549,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\less\\variables.less"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_bordered-pulled.scss",
       "AssetKind": "All",
@@ -568,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_core.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_core.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_core.scss",
       "AssetKind": "All",
@@ -587,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_core.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_fixed-width.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_fixed-width.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_fixed-width.scss",
       "AssetKind": "All",
@@ -606,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_fixed-width.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_icons.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_icons.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_icons.scss",
       "AssetKind": "All",
@@ -625,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_icons.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_larger.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_larger.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_larger.scss",
       "AssetKind": "All",
@@ -644,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_larger.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_list.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_list.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_list.scss",
       "AssetKind": "All",
@@ -663,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_list.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_mixins.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_mixins.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_mixins.scss",
       "AssetKind": "All",
@@ -682,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_mixins.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_path.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_path.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_path.scss",
       "AssetKind": "All",
@@ -701,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_path.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_rotated-flipped.scss",
       "AssetKind": "All",
@@ -720,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_spinning.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_spinning.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_spinning.scss",
       "AssetKind": "All",
@@ -739,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_spinning.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_stacked.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_stacked.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_stacked.scss",
       "AssetKind": "All",
@@ -758,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_stacked.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_variables.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_variables.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/_variables.scss",
       "AssetKind": "All",
@@ -777,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\font-awesome.scss",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\font-awesome\\scss\\font-awesome.scss",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/font-awesome/scss/font-awesome.scss",
       "AssetKind": "All",
@@ -796,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\font-awesome\\scss\\font-awesome.scss"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.eot",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.eot",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -815,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -834,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/fonts/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -853,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -872,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\bootstrap.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/bootstrap.js",
       "AssetKind": "All",
@@ -891,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\bootstrap.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -910,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\demo\\dashboard-demo.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\demo\\dashboard-demo.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/demo/dashboard-demo.js",
       "AssetKind": "All",
@@ -929,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\demo\\dashboard-demo.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\demo\\flot-demo.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\demo\\flot-demo.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/demo/flot-demo.js",
       "AssetKind": "All",
@@ -948,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\demo\\flot-demo.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\demo\\morris-demo.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\demo\\morris-demo.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/demo/morris-demo.js",
       "AssetKind": "All",
@@ -967,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\demo\\morris-demo.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\jquery-1.10.2.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\jquery-1.10.2.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/jquery-1.10.2.js",
       "AssetKind": "All",
@@ -986,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\jquery-1.10.2.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/plugins/dataTables/dataTables.bootstrap.js",
       "AssetKind": "All",
@@ -1005,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/plugins/dataTables/jquery.dataTables.js",
       "AssetKind": "All",
@@ -1024,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\excanvas.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\excanvas.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/plugins/flot/excanvas.min.js",
       "AssetKind": "All",
@@ -1043,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\flot\\excanvas.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/plugins/flot/jquery.flot.js",
       "AssetKind": "All",
@@ -1062,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/plugins/flot/jquery.flot.pie.js",
       "AssetKind": "All",
@@ -1081,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/plugins/flot/jquery.flot.resize.js",
       "AssetKind": "All",
@@ -1100,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/plugins/flot/jquery.flot.tooltip.min.js",
       "AssetKind": "All",
@@ -1119,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/plugins/metisMenu/jquery.metisMenu.js",
       "AssetKind": "All",
@@ -1138,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\morris.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\morris.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/plugins/morris/morris.js",
       "AssetKind": "All",
@@ -1157,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\morris\\morris.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/plugins/morris/raphael-2.1.0.min.js",
       "AssetKind": "All",
@@ -1176,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\sb-admin.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\AdminContent\\js\\sb-admin.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "AdminContent/js/sb-admin.js",
       "AssetKind": "All",
@@ -1195,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\AdminContent\\js\\sb-admin.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\0e114394d6254331908e68348275ac43.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\0e114394d6254331908e68348275ac43.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/0e114394d6254331908e68348275ac43.jpg",
       "AssetKind": "All",
@@ -1214,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\0e114394d6254331908e68348275ac43.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\12a7c72bff4942fba81f88352666c5a2.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\12a7c72bff4942fba81f88352666c5a2.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/12a7c72bff4942fba81f88352666c5a2.jpg",
       "AssetKind": "All",
@@ -1233,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\12a7c72bff4942fba81f88352666c5a2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\16025f4fa9384751b46a700d690ce620.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\16025f4fa9384751b46a700d690ce620.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/16025f4fa9384751b46a700d690ce620.jpg",
       "AssetKind": "All",
@@ -1252,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\16025f4fa9384751b46a700d690ce620.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\1b5d30e091cd47788476354f07a867c5.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\1b5d30e091cd47788476354f07a867c5.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/1b5d30e091cd47788476354f07a867c5.jpg",
       "AssetKind": "All",
@@ -1271,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\1b5d30e091cd47788476354f07a867c5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\2915d7200d534d769ebaac8787e6c473.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\2915d7200d534d769ebaac8787e6c473.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/2915d7200d534d769ebaac8787e6c473.jpg",
       "AssetKind": "All",
@@ -1290,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\2915d7200d534d769ebaac8787e6c473.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\430f6d829cbe47dab0556b1fb7709f1d.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\430f6d829cbe47dab0556b1fb7709f1d.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/430f6d829cbe47dab0556b1fb7709f1d.jpg",
       "AssetKind": "All",
@@ -1309,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\430f6d829cbe47dab0556b1fb7709f1d.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\502a17173bb142c8a7a0cd9a2b59f96e.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\502a17173bb142c8a7a0cd9a2b59f96e.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/502a17173bb142c8a7a0cd9a2b59f96e.jpg",
       "AssetKind": "All",
@@ -1328,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\502a17173bb142c8a7a0cd9a2b59f96e.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\758daa7667f34aa899f1e83a2f8c7879.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\758daa7667f34aa899f1e83a2f8c7879.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/758daa7667f34aa899f1e83a2f8c7879.jpg",
       "AssetKind": "All",
@@ -1347,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\758daa7667f34aa899f1e83a2f8c7879.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\7aecbbcc42b240999588210cc9a011b7.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\7aecbbcc42b240999588210cc9a011b7.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/7aecbbcc42b240999588210cc9a011b7.jpg",
       "AssetKind": "All",
@@ -1366,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\7aecbbcc42b240999588210cc9a011b7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\84655ed4fe344bf8aaa531ac3f72ad69.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\84655ed4fe344bf8aaa531ac3f72ad69.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/84655ed4fe344bf8aaa531ac3f72ad69.jpg",
       "AssetKind": "All",
@@ -1385,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\84655ed4fe344bf8aaa531ac3f72ad69.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\85b948c6dc9a4f279f68f5dd1a54ddde.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\85b948c6dc9a4f279f68f5dd1a54ddde.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/85b948c6dc9a4f279f68f5dd1a54ddde.jpg",
       "AssetKind": "All",
@@ -1404,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\85b948c6dc9a4f279f68f5dd1a54ddde.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\8772aedb5eeb401085c0b4e07e8acb9e.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\8772aedb5eeb401085c0b4e07e8acb9e.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/8772aedb5eeb401085c0b4e07e8acb9e.jpg",
       "AssetKind": "All",
@@ -1423,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\8772aedb5eeb401085c0b4e07e8acb9e.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\8c60566964a64c77b1ace80ea5161bc5.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\8c60566964a64c77b1ace80ea5161bc5.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/8c60566964a64c77b1ace80ea5161bc5.jpg",
       "AssetKind": "All",
@@ -1442,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\8c60566964a64c77b1ace80ea5161bc5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\9be83253dd9840f2aef3b5d112fa38b0.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\9be83253dd9840f2aef3b5d112fa38b0.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/9be83253dd9840f2aef3b5d112fa38b0.jpg",
       "AssetKind": "All",
@@ -1461,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\9be83253dd9840f2aef3b5d112fa38b0.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\a309f3c931564aa7970cdf699f0ae4c7.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\a309f3c931564aa7970cdf699f0ae4c7.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/a309f3c931564aa7970cdf699f0ae4c7.jpg",
       "AssetKind": "All",
@@ -1480,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\a309f3c931564aa7970cdf699f0ae4c7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\a5c468ae35e94107b03cbbfe12055da0.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\a5c468ae35e94107b03cbbfe12055da0.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/a5c468ae35e94107b03cbbfe12055da0.jpg",
       "AssetKind": "All",
@@ -1499,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\a5c468ae35e94107b03cbbfe12055da0.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\a8dc441126304463badde748c7ceee79.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\a8dc441126304463badde748c7ceee79.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/a8dc441126304463badde748c7ceee79.jpg",
       "AssetKind": "All",
@@ -1518,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\a8dc441126304463badde748c7ceee79.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\c49d429b2ea641ce90938e9a10414ab9.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\c49d429b2ea641ce90938e9a10414ab9.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/c49d429b2ea641ce90938e9a10414ab9.jpg",
       "AssetKind": "All",
@@ -1537,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\c49d429b2ea641ce90938e9a10414ab9.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\d4e77b9e46c8441a88746fa2d1977e16.jpeg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\d4e77b9e46c8441a88746fa2d1977e16.jpeg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/d4e77b9e46c8441a88746fa2d1977e16.jpeg",
       "AssetKind": "All",
@@ -1556,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\d4e77b9e46c8441a88746fa2d1977e16.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\d9f26a43ead2432c954b9e34431e950b.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\d9f26a43ead2432c954b9e34431e950b.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/d9f26a43ead2432c954b9e34431e950b.jpg",
       "AssetKind": "All",
@@ -1575,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\d9f26a43ead2432c954b9e34431e950b.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\dfeaaebe1d8a4a96aef674eacbd960cc.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\dfeaaebe1d8a4a96aef674eacbd960cc.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/dfeaaebe1d8a4a96aef674eacbd960cc.jpg",
       "AssetKind": "All",
@@ -1594,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\dfeaaebe1d8a4a96aef674eacbd960cc.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\ee9648f55d2a4a76a1a8fb9c2410f420.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\ee9648f55d2a4a76a1a8fb9c2410f420.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/ee9648f55d2a4a76a1a8fb9c2410f420.jpg",
       "AssetKind": "All",
@@ -1613,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\ee9648f55d2a4a76a1a8fb9c2410f420.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\no-photo.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\image\\no-photo.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/image/no-photo.jpg",
       "AssetKind": "All",
@@ -1632,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\course\\image\\no-photo.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\0e114394d6254331908e68348275ac43.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\0e114394d6254331908e68348275ac43.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/0e114394d6254331908e68348275ac43.jpg",
       "AssetKind": "All",
@@ -1651,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\0e114394d6254331908e68348275ac43.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\12a7c72bff4942fba81f88352666c5a2.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\12a7c72bff4942fba81f88352666c5a2.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/12a7c72bff4942fba81f88352666c5a2.jpg",
       "AssetKind": "All",
@@ -1670,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\12a7c72bff4942fba81f88352666c5a2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\16025f4fa9384751b46a700d690ce620.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\16025f4fa9384751b46a700d690ce620.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/16025f4fa9384751b46a700d690ce620.jpg",
       "AssetKind": "All",
@@ -1689,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\16025f4fa9384751b46a700d690ce620.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\1b5d30e091cd47788476354f07a867c5.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\1b5d30e091cd47788476354f07a867c5.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/1b5d30e091cd47788476354f07a867c5.jpg",
       "AssetKind": "All",
@@ -1708,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\1b5d30e091cd47788476354f07a867c5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\2915d7200d534d769ebaac8787e6c473.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\2915d7200d534d769ebaac8787e6c473.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/2915d7200d534d769ebaac8787e6c473.jpg",
       "AssetKind": "All",
@@ -1727,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\2915d7200d534d769ebaac8787e6c473.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\430f6d829cbe47dab0556b1fb7709f1d.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\430f6d829cbe47dab0556b1fb7709f1d.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/430f6d829cbe47dab0556b1fb7709f1d.jpg",
       "AssetKind": "All",
@@ -1746,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\430f6d829cbe47dab0556b1fb7709f1d.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\502a17173bb142c8a7a0cd9a2b59f96e.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\502a17173bb142c8a7a0cd9a2b59f96e.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/502a17173bb142c8a7a0cd9a2b59f96e.jpg",
       "AssetKind": "All",
@@ -1765,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\502a17173bb142c8a7a0cd9a2b59f96e.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\758daa7667f34aa899f1e83a2f8c7879.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\758daa7667f34aa899f1e83a2f8c7879.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/758daa7667f34aa899f1e83a2f8c7879.jpg",
       "AssetKind": "All",
@@ -1784,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\758daa7667f34aa899f1e83a2f8c7879.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\7aecbbcc42b240999588210cc9a011b7.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\7aecbbcc42b240999588210cc9a011b7.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/7aecbbcc42b240999588210cc9a011b7.jpg",
       "AssetKind": "All",
@@ -1803,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\7aecbbcc42b240999588210cc9a011b7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\84655ed4fe344bf8aaa531ac3f72ad69.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\84655ed4fe344bf8aaa531ac3f72ad69.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/84655ed4fe344bf8aaa531ac3f72ad69.jpg",
       "AssetKind": "All",
@@ -1822,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\84655ed4fe344bf8aaa531ac3f72ad69.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\85b948c6dc9a4f279f68f5dd1a54ddde.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\85b948c6dc9a4f279f68f5dd1a54ddde.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/85b948c6dc9a4f279f68f5dd1a54ddde.jpg",
       "AssetKind": "All",
@@ -1841,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\85b948c6dc9a4f279f68f5dd1a54ddde.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\8772aedb5eeb401085c0b4e07e8acb9e.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\8772aedb5eeb401085c0b4e07e8acb9e.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/8772aedb5eeb401085c0b4e07e8acb9e.jpg",
       "AssetKind": "All",
@@ -1860,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\8772aedb5eeb401085c0b4e07e8acb9e.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\8c60566964a64c77b1ace80ea5161bc5.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\8c60566964a64c77b1ace80ea5161bc5.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/8c60566964a64c77b1ace80ea5161bc5.jpg",
       "AssetKind": "All",
@@ -1879,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\8c60566964a64c77b1ace80ea5161bc5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\9be83253dd9840f2aef3b5d112fa38b0.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\9be83253dd9840f2aef3b5d112fa38b0.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/9be83253dd9840f2aef3b5d112fa38b0.jpg",
       "AssetKind": "All",
@@ -1898,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\9be83253dd9840f2aef3b5d112fa38b0.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\a309f3c931564aa7970cdf699f0ae4c7.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\a309f3c931564aa7970cdf699f0ae4c7.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/a309f3c931564aa7970cdf699f0ae4c7.jpg",
       "AssetKind": "All",
@@ -1917,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\a309f3c931564aa7970cdf699f0ae4c7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\a5c468ae35e94107b03cbbfe12055da0.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\a5c468ae35e94107b03cbbfe12055da0.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/a5c468ae35e94107b03cbbfe12055da0.jpg",
       "AssetKind": "All",
@@ -1936,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\a5c468ae35e94107b03cbbfe12055da0.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\a8dc441126304463badde748c7ceee79.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\a8dc441126304463badde748c7ceee79.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/a8dc441126304463badde748c7ceee79.jpg",
       "AssetKind": "All",
@@ -1955,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\a8dc441126304463badde748c7ceee79.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\c49d429b2ea641ce90938e9a10414ab9.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\c49d429b2ea641ce90938e9a10414ab9.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/c49d429b2ea641ce90938e9a10414ab9.jpg",
       "AssetKind": "All",
@@ -1974,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\c49d429b2ea641ce90938e9a10414ab9.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\d4e77b9e46c8441a88746fa2d1977e16.jpeg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\d4e77b9e46c8441a88746fa2d1977e16.jpeg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/d4e77b9e46c8441a88746fa2d1977e16.jpeg",
       "AssetKind": "All",
@@ -1993,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\d4e77b9e46c8441a88746fa2d1977e16.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\dfeaaebe1d8a4a96aef674eacbd960cc.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\dfeaaebe1d8a4a96aef674eacbd960cc.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/dfeaaebe1d8a4a96aef674eacbd960cc.jpg",
       "AssetKind": "All",
@@ -2012,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\dfeaaebe1d8a4a96aef674eacbd960cc.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\ee9648f55d2a4a76a1a8fb9c2410f420.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\ee9648f55d2a4a76a1a8fb9c2410f420.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/ee9648f55d2a4a76a1a8fb9c2410f420.jpg",
       "AssetKind": "All",
@@ -2031,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\ee9648f55d2a4a76a1a8fb9c2410f420.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\0e114394d6254331908e68348275ac43.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\0e114394d6254331908e68348275ac43.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/New folder/0e114394d6254331908e68348275ac43.jpg",
       "AssetKind": "All",
@@ -2050,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\New folder\\0e114394d6254331908e68348275ac43.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\16025f4fa9384751b46a700d690ce620.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\16025f4fa9384751b46a700d690ce620.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/New folder/16025f4fa9384751b46a700d690ce620.jpg",
       "AssetKind": "All",
@@ -2069,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\New folder\\16025f4fa9384751b46a700d690ce620.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\84655ed4fe344bf8aaa531ac3f72ad69.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\84655ed4fe344bf8aaa531ac3f72ad69.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/New folder/84655ed4fe344bf8aaa531ac3f72ad69.jpg",
       "AssetKind": "All",
@@ -2088,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\New folder\\84655ed4fe344bf8aaa531ac3f72ad69.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\85b948c6dc9a4f279f68f5dd1a54ddde.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\85b948c6dc9a4f279f68f5dd1a54ddde.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/New folder/85b948c6dc9a4f279f68f5dd1a54ddde.jpg",
       "AssetKind": "All",
@@ -2107,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\New folder\\85b948c6dc9a4f279f68f5dd1a54ddde.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\a5c468ae35e94107b03cbbfe12055da0.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\a5c468ae35e94107b03cbbfe12055da0.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/New folder/a5c468ae35e94107b03cbbfe12055da0.jpg",
       "AssetKind": "All",
@@ -2126,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\New folder\\a5c468ae35e94107b03cbbfe12055da0.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\a8dc441126304463badde748c7ceee79.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\a8dc441126304463badde748c7ceee79.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/New folder/a8dc441126304463badde748c7ceee79.jpg",
       "AssetKind": "All",
@@ -2145,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\New folder\\a8dc441126304463badde748c7ceee79.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\d4e77b9e46c8441a88746fa2d1977e16.jpeg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\d4e77b9e46c8441a88746fa2d1977e16.jpeg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/New folder/d4e77b9e46c8441a88746fa2d1977e16.jpeg",
       "AssetKind": "All",
@@ -2164,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\New folder\\d4e77b9e46c8441a88746fa2d1977e16.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\dfeaaebe1d8a4a96aef674eacbd960cc.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\dfeaaebe1d8a4a96aef674eacbd960cc.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/New folder/dfeaaebe1d8a4a96aef674eacbd960cc.jpg",
       "AssetKind": "All",
@@ -2183,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\New folder\\dfeaaebe1d8a4a96aef674eacbd960cc.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\no-photo.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\New folder\\no-photo.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/New folder/no-photo.jpg",
       "AssetKind": "All",
@@ -2202,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\New folder\\no-photo.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\no-photo.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\course\\thumb\\no-photo.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "course/thumb/no-photo.jpg",
       "AssetKind": "All",
@@ -2221,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\course\\thumb\\no-photo.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\01_Asp.NetCore2Advance_Intro.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\01_Asp.NetCore2Advance_Intro.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/01_Asp.NetCore2Advance_Intro.rar",
       "AssetKind": "All",
@@ -2240,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\01_Asp.NetCore2Advance_Intro.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\01_MicroService.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\01_MicroService.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/01_MicroService.rar",
       "AssetKind": "All",
@@ -2259,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\01_MicroService.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\01_MohrKhatam.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\01_MohrKhatam.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/01_MohrKhatam.rar",
       "AssetKind": "All",
@@ -2278,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\01_MohrKhatam.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\photo_2018-10-13_08-55-14.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\photo_2018-10-13_08-55-14.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/photo_2018-10-13_08-55-14.rar",
       "AssetKind": "All",
@@ -2297,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\photo_2018-10-13_08-55-14.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\photo_2018-10-13_09-01-27.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\photo_2018-10-13_09-01-27.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/photo_2018-10-13_09-01-27.rar",
       "AssetKind": "All",
@@ -2316,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\photo_2018-10-13_09-01-27.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser.rar",
       "AssetKind": "All",
@@ -2335,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser1.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser1.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser1.rar",
       "AssetKind": "All",
@@ -2354,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser1.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser10.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser10.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser10.rar",
       "AssetKind": "All",
@@ -2373,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser10.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser11.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser11.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser11.rar",
       "AssetKind": "All",
@@ -2392,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser11.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser2.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser2.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser2.rar",
       "AssetKind": "All",
@@ -2411,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser2.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser3.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser3.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser3.rar",
       "AssetKind": "All",
@@ -2430,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser3.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser4.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser4.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser4.rar",
       "AssetKind": "All",
@@ -2449,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser4.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser5.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser5.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser5.rar",
       "AssetKind": "All",
@@ -2468,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser5.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser6.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser6.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser6.rar",
       "AssetKind": "All",
@@ -2487,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser6.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser7.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser7.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser7.rar",
       "AssetKind": "All",
@@ -2506,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser7.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser8.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser8.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser8.rar",
       "AssetKind": "All",
@@ -2525,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser8.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser9.rar",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\ser9.rar",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseFiles/ser9.rar",
       "AssetKind": "All",
@@ -2544,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\courseFiles\\ser9.rar"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\CourseFilesOnline\\01_MicroService.mp4",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\CourseFilesOnline\\01_MicroService.mp4",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "CourseFilesOnline/01_MicroService.mp4",
       "AssetKind": "All",
@@ -2563,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\CourseFilesOnline\\01_MicroService.mp4"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\courseOnline\\01_MohrKhatam.mp4",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseOnline\\01_MohrKhatam.mp4",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "courseOnline/01_MohrKhatam.mp4",
       "AssetKind": "All",
@@ -2582,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\courseOnline\\01_MohrKhatam.mp4"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2601,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/bootstrap-rtl.min.css",
       "AssetKind": "All",
@@ -2620,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\bootstrap.min.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2639,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\bootstrap-rtl.min.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\bootstrap-rtl.min.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/bootstrap-rtl.min.css",
       "AssetKind": "All",
@@ -2658,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\bootstrap-rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\BYekan-webfont.eot",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\BYekan-webfont.eot",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/fonts/BYekan-webfont.eot",
       "AssetKind": "All",
@@ -2677,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\fonts\\BYekan-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\BYekan-webfont.ttf",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\BYekan-webfont.ttf",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/fonts/BYekan-webfont.ttf",
       "AssetKind": "All",
@@ -2696,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\fonts\\BYekan-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\BYekan-webfont.woff",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\BYekan-webfont.woff",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/fonts/BYekan-webfont.woff",
       "AssetKind": "All",
@@ -2715,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\fonts\\BYekan-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.eot",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.eot",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/fonts/Material-Design-Iconic-Font.eot",
       "AssetKind": "All",
@@ -2734,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.eot"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.svg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.svg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/fonts/Material-Design-Iconic-Font.svg",
       "AssetKind": "All",
@@ -2753,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.svg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.ttf",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.ttf",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/fonts/Material-Design-Iconic-Font.ttf",
       "AssetKind": "All",
@@ -2772,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.ttf"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.woff",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.woff",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/fonts/Material-Design-Iconic-Font.woff",
       "AssetKind": "All",
@@ -2791,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.woff"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.woff2",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.woff2",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/fonts/Material-Design-Iconic-Font.woff2",
       "AssetKind": "All",
@@ -2810,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\fonts\\Material-Design-Iconic-Font.woff2"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\material-design-iconic-font.min.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\material-design-iconic-font.min.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/material-design-iconic-font.min.css",
       "AssetKind": "All",
@@ -2829,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\style.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\css\\style.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/css/style.css",
       "AssetKind": "All",
@@ -2848,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\CustomCss.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\CustomCss.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/CustomCss.css",
       "AssetKind": "All",
@@ -2867,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\css\\CustomCss.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\BYekan-webfont.eot",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\BYekan-webfont.eot",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/fonts/BYekan-webfont.eot",
       "AssetKind": "All",
@@ -2886,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\BYekan-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\BYekan-webfont.ttf",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\BYekan-webfont.ttf",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/fonts/BYekan-webfont.ttf",
       "AssetKind": "All",
@@ -2905,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\BYekan-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\BYekan-webfont.woff",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\BYekan-webfont.woff",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/fonts/BYekan-webfont.woff",
       "AssetKind": "All",
@@ -2924,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\BYekan-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.eot",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.eot",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/fonts/Material-Design-Iconic-Font.eot",
       "AssetKind": "All",
@@ -2943,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\Material-Design-Iconic-Font.eot"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.svg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.svg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/fonts/Material-Design-Iconic-Font.svg",
       "AssetKind": "All",
@@ -2962,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\Material-Design-Iconic-Font.svg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.ttf",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.ttf",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/fonts/Material-Design-Iconic-Font.ttf",
       "AssetKind": "All",
@@ -2981,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\Material-Design-Iconic-Font.ttf"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/fonts/Material-Design-Iconic-Font.woff",
       "AssetKind": "All",
@@ -3000,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff2",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff2",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/fonts/Material-Design-Iconic-Font.woff2",
       "AssetKind": "All",
@@ -3019,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts\\Material-Design-Iconic-Font.woff2"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\captcha.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\captcha.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/captcha.jpg",
       "AssetKind": "All",
@@ -3038,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\captcha.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\logo.png",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\logo.png",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/logo.png",
       "AssetKind": "All",
@@ -3057,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pattern.png",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pattern.png",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pattern.png",
       "AssetKind": "All",
@@ -3076,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pattern.png"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\1.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\1.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/1.jpg",
       "AssetKind": "All",
@@ -3095,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\2.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\2.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/2.jpg",
       "AssetKind": "All",
@@ -3114,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\3.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\3.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/3.jpg",
       "AssetKind": "All",
@@ -3133,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\4.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\4.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/4.jpg",
       "AssetKind": "All",
@@ -3152,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\5.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\5.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/5.jpg",
       "AssetKind": "All",
@@ -3171,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\6.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\6.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/6.jpg",
       "AssetKind": "All",
@@ -3190,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\7.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\7.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/7.jpg",
       "AssetKind": "All",
@@ -3209,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\8.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\8.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/8.jpg",
       "AssetKind": "All",
@@ -3228,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\8.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\avatar.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\avatar.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/avatar.jpg",
       "AssetKind": "All",
@@ -3247,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\avatar.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\big-thumb.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\big-thumb.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/big-thumb.jpg",
       "AssetKind": "All",
@@ -3266,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\big-thumb.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\namad.png",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\namad.png",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/namad.png",
       "AssetKind": "All",
@@ -3285,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\namad.png"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\namad-1.png",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\pic\\namad-1.png",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/pic/namad-1.png",
       "AssetKind": "All",
@@ -3304,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\pic\\namad-1.png"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\slide.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\images\\slide.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/images/slide.jpg",
       "AssetKind": "All",
@@ -3323,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\css\\images\\slide.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\bootstrap.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3342,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/js/jquery.min.js",
       "AssetKind": "All",
@@ -3361,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.unobtrusive-ajax.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.unobtrusive-ajax.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/js/jquery.unobtrusive-ajax.min.js",
       "AssetKind": "All",
@@ -3380,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.validate.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.validate.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/js/jquery.validate.js",
       "AssetKind": "All",
@@ -3399,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.validate.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/js/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3418,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.validate.unobtrusive.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/js/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3437,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/js/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3456,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\modernizr-custom.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\modernizr-custom.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/js/modernizr-custom.js",
       "AssetKind": "All",
@@ -3475,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\modernizr-custom.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\script.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\js\\script.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/js/script.js",
       "AssetKind": "All",
@@ -3494,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\script.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\material-design-iconic-font.min.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\material-design-iconic-font.min.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/material-design-iconic-font.min.css",
       "AssetKind": "All",
@@ -3513,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\noUiSlider\\nouislider.min.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\noUiSlider\\nouislider.min.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/noUiSlider/nouislider.min.css",
       "AssetKind": "All",
@@ -3532,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\css\\noUiSlider\\nouislider.min.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\noUiSlider\\nouislider.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\noUiSlider\\nouislider.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/noUiSlider/nouislider.min.js",
       "AssetKind": "All",
@@ -3551,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\css\\noUiSlider\\nouislider.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\css\\style.css",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -3570,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\logo.png",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -3589,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pattern.png",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pattern.png",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pattern.png",
       "AssetKind": "All",
@@ -3608,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pattern.png"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\1.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\1.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/1.jpg",
       "AssetKind": "All",
@@ -3627,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\2.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\2.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/2.jpg",
       "AssetKind": "All",
@@ -3646,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\3.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\3.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/3.jpg",
       "AssetKind": "All",
@@ -3665,10 +3703,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\4.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\4.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/4.jpg",
       "AssetKind": "All",
@@ -3684,10 +3722,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\5.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\5.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/5.jpg",
       "AssetKind": "All",
@@ -3703,10 +3741,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\6.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\6.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/6.jpg",
       "AssetKind": "All",
@@ -3722,10 +3760,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\7.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\7.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/7.jpg",
       "AssetKind": "All",
@@ -3741,10 +3779,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\8.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\8.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/8.jpg",
       "AssetKind": "All",
@@ -3760,10 +3798,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\8.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\avatar.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\avatar.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/avatar.jpg",
       "AssetKind": "All",
@@ -3779,10 +3817,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\avatar.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\big-thumb.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\big-thumb.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/big-thumb.jpg",
       "AssetKind": "All",
@@ -3798,10 +3836,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\big-thumb.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\namad.png",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\namad.png",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/namad.png",
       "AssetKind": "All",
@@ -3817,10 +3855,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\namad.png"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\namad-1.png",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\pic\\namad-1.png",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/pic/namad-1.png",
       "AssetKind": "All",
@@ -3836,10 +3874,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pic\\namad-1.png"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\images\\slide.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\images\\slide.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "images/slide.jpg",
       "AssetKind": "All",
@@ -3855,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\images\\slide.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3874,10 +3912,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\Config.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\Config.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/Config.js",
       "AssetKind": "All",
@@ -3893,10 +3931,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Config.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -3912,10 +3950,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/jquery.unobtrusive-ajax.js",
       "AssetKind": "All",
@@ -3931,10 +3969,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.unobtrusive-ajax.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/jquery.unobtrusive-ajax.min.js",
       "AssetKind": "All",
@@ -3950,10 +3988,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.unobtrusive-ajax.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.validate.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.validate.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/jquery.validate.js",
       "AssetKind": "All",
@@ -3969,10 +4007,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.validate.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3988,10 +4026,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.validate.unobtrusive.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4007,10 +4045,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4026,10 +4064,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\kendo.all.min.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\kendo.all.min.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/kendo.all.min.js",
       "AssetKind": "All",
@@ -4045,10 +4083,10 @@
       "OriginalItemSpec": "wwwroot\\js\\kendo.all.min.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\modernizr-custom.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\modernizr-custom.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/modernizr-custom.js",
       "AssetKind": "All",
@@ -4064,10 +4102,10 @@
       "OriginalItemSpec": "wwwroot\\js\\modernizr-custom.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\js\\script.js",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\js\\script.js",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
@@ -4083,10 +4121,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\MyImages\\98491d8b-e2ca-4d08-9fdc-d79c5ae7c48a.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\MyImages\\98491d8b-e2ca-4d08-9fdc-d79c5ae7c48a.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "MyImages/98491d8b-e2ca-4d08-9fdc-d79c5ae7c48a.jpg",
       "AssetKind": "All",
@@ -4102,10 +4140,10 @@
       "OriginalItemSpec": "wwwroot\\MyImages\\98491d8b-e2ca-4d08-9fdc-d79c5ae7c48a.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\017b49092db0430daa16ffb951b951f8.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\017b49092db0430daa16ffb951b951f8.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "UserAvatar/017b49092db0430daa16ffb951b951f8.jpg",
       "AssetKind": "All",
@@ -4121,10 +4159,10 @@
       "OriginalItemSpec": "wwwroot\\UserAvatar\\017b49092db0430daa16ffb951b951f8.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\08f7c17187fb450aa09f072faa57985e.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\08f7c17187fb450aa09f072faa57985e.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "UserAvatar/08f7c17187fb450aa09f072faa57985e.jpg",
       "AssetKind": "All",
@@ -4140,10 +4178,10 @@
       "OriginalItemSpec": "wwwroot\\UserAvatar\\08f7c17187fb450aa09f072faa57985e.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\4d2a216b8cfa45c39c5df9f65508c9fc.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\4d2a216b8cfa45c39c5df9f65508c9fc.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "UserAvatar/4d2a216b8cfa45c39c5df9f65508c9fc.jpg",
       "AssetKind": "All",
@@ -4159,10 +4197,10 @@
       "OriginalItemSpec": "wwwroot\\UserAvatar\\4d2a216b8cfa45c39c5df9f65508c9fc.jpg"
     },
     {
-      "Identity": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\Defult.jpg",
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\Defult.jpg",
       "SourceId": "ClothShop.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MohammadMehdi\\source\\repos\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
       "BasePath": "_content/ClothShop.Web",
       "RelativePath": "UserAvatar/Defult.jpg",
       "AssetKind": "All",
