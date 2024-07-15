@@ -69,7 +69,7 @@ public class AccountController : Controller
 
         #region Send Activation Email
 
-        string body = _viewRender.RenderToStringAsync("_ActiveEmail", user);
+        string body = _viewRender.RenderToStringAsync("_ActivationEmail", user);
         SendEmail.Send(user.Email,"فعالسازی",body);
 
         #endregion

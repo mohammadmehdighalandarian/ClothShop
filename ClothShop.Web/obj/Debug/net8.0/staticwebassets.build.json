@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "acFSNZmqN4kP9E4ZmW3x3f+HYFQSg7dkwCQ77TTZje0=",
+  "Hash": "DBaf55hIHBlL1sTzt9sg2TvJpjLok79ewo12bmRmFnc=",
   "Source": "ClothShop.Web",
   "BasePath": "_content/ClothShop.Web",
   "Mode": "Default",
@@ -4195,6 +4195,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UserAvatar\\4d2a216b8cfa45c39c5df9f65508c9fc.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\a82e32319a2d45728b442540f6ae89c7.png",
+      "SourceId": "ClothShop.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\",
+      "BasePath": "_content/ClothShop.Web",
+      "RelativePath": "UserAvatar/a82e32319a2d45728b442540f6ae89c7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UserAvatar\\a82e32319a2d45728b442540f6ae89c7.png"
     },
     {
       "Identity": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\Defult.jpg",

@@ -13,7 +13,7 @@
 
 <main class="client-page">
     <div class="container-content">
-        @if (ViewBag.IsSuccess == "True")
+        @if (ViewBag.IsSuccess == true)
         {
             <div class="alert alert-success">
                 <p class="help-block">ورود با موفقیت انجام شد</p>
@@ -22,7 +22,7 @@
             <script>
                 // Your delay in milliseconds
                 var delay = 3000;
-                setTimeout(function () { window.location = "/UserPannel"; }, delay);
+                setTimeout(function () { window.location = "/UserPanel"; }, delay);
             </script>
         }
         @if (ViewBag.ErrorMessage != null)

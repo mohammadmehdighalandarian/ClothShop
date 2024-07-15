@@ -1,3 +1,4 @@
+using ClothShop.Core.Convertors;
 using ClothShop.Core.Service;
 using ClothShop.Core.Service.Interface;
 using ClothShop.DataLayer.Context;
@@ -28,10 +29,10 @@ builder.Services.AddDbContext<ShopContext>(options =>
 
 
 builder.Services.AddTransient<IUserService, UserService>();
-//builder.Services.AddTransient<IViewRenderService, RenderViewToString>();
+builder.Services.AddTransient<IViewRenderService, RenderViewToString>();
 //builder.Services.AddTransient<IPermitionServices, PermitionServices>();
 //builder.Services.AddTransient<ICourseService, CourseService>();
-//builder.Services.AddTransient<IOrderService, OrderService>();
+builder.Services.AddTransient<IOrderService, OrderService>();
 
 #endregion
 

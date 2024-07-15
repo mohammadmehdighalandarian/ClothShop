@@ -277,6 +277,10 @@
       "PackagePath": "staticwebassets\\UserAvatar\\Defult.jpg"
     },
     {
+      "Id": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\UserAvatar\\a82e32319a2d45728b442540f6ae89c7.png",
+      "PackagePath": "staticwebassets\\UserAvatar\\a82e32319a2d45728b442540f6ae89c7.png"
+    },
+    {
       "Id": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\wwwroot\\courseFiles\\01_Asp.NetCore2Advance_Intro.rar",
       "PackagePath": "staticwebassets\\courseFiles\\01_Asp.NetCore2Advance_Intro.rar"
     },

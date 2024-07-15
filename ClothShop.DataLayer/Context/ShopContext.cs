@@ -1,4 +1,5 @@
-﻿using ClothShop.DataLayer.Entities.Permission;
+﻿using ClothShop.DataLayer.Entities.Order;
+using ClothShop.DataLayer.Entities.Permission;
 using ClothShop.DataLayer.Entities.Product;
 using ClothShop.DataLayer.Entities.Product.ProductDetails;
 using ClothShop.DataLayer.Entities.User;
@@ -37,7 +38,13 @@ public class ShopContext:DbContext
     public DbSet<UserDiscountCode> UserDiscountCodes { get; set; }
 
     #endregion
+    #region Order
 
+    public DbSet<Discount> Discounts { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<OrderDetail> OrderDetails { get; set; }
+
+    #endregion
     #region Wallet
 
     public DbSet<WalletType> WalletTypes { get; set; }
