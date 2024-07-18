@@ -23,7 +23,6 @@ namespace ClothShop.Core.Service.Interface
         void AddPermissionsToRole(int roleId, List<int> permission);
         List<int> PermissionsRole(int roleId);
         void UpdatePermissionsRole(int roleId, List<int> permissions);
-
         bool CheckPermission(int permissionId, string userName);
 
         #endregion

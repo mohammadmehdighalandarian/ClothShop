@@ -30,7 +30,7 @@ builder.Services.AddDbContext<ShopContext>(options =>
 
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IViewRenderService, RenderViewToString>();
-//builder.Services.AddTransient<IPermissionService, Permiss>();
+builder.Services.AddTransient<IPermissionService, PermissionService>();
 //builder.Services.AddTransient<ICourseService, CourseService>();
 builder.Services.AddTransient<IOrderService, OrderService>();
 
@@ -41,8 +41,8 @@ builder.Services.AddTransient<IOrderService, OrderService>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(option =>
     {
-        option.LoginPath = "/Account/Login";
-        option.LogoutPath = "/Account/Logout";
+        option.LoginPath = "/Login";
+        option.LogoutPath = "/Logout";
         option.ExpireTimeSpan = TimeSpan.FromDays(10);
     });
 

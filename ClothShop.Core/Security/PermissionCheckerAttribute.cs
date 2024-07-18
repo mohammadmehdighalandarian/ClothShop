@@ -18,6 +18,7 @@ public class PermissionCheckerAttribute : AuthorizeAttribute, IAuthorizationFilt
     {
         _permissionService =
             (IPermissionService) context.HttpContext.RequestServices.GetService(typeof(IPermissionService));
+
         if (context.HttpContext.User.Identity.IsAuthenticated)
         {
             string userName = context.HttpContext.User.Identity.Name;
