@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672A3E-4179-4D9E-B772-02D3F1B58441}|ClothShop.Web\\ClothShop.Web.csproj|c:\\users\\mohammadmehdi\\desktop\\clothshop\\clothshop.web\\pages\\admin\\users\\listdeleteusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672A3E-4179-4D9E-B772-02D3F1B58441}|ClothShop.Web\\ClothShop.Web.csproj|solutionrelative:clothshop.web\\pages\\admin\\users\\listdeleteusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672A3E-4179-4D9E-B772-02D3F1B58441}|ClothShop.Web\\ClothShop.Web.csproj|c:\\users\\mohammadmehdi\\desktop\\clothshop\\clothshop.web\\pages\\admin\\users\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672A3E-4179-4D9E-B772-02D3F1B58441}|ClothShop.Web\\ClothShop.Web.csproj|solutionrelative:clothshop.web\\pages\\admin\\users\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672A3E-4179-4D9E-B772-02D3F1B58441}|ClothShop.Web\\ClothShop.Web.csproj|c:\\users\\mohammadmehdi\\desktop\\clothshop\\clothshop.web\\pages\\admin\\users\\deleteuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672A3E-4179-4D9E-B772-02D3F1B58441}|ClothShop.Web\\ClothShop.Web.csproj|solutionrelative:clothshop.web\\pages\\admin\\users\\deleteuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672A3E-4179-4D9E-B772-02D3F1B58441}|ClothShop.Web\\ClothShop.Web.csproj|c:\\users\\mohammadmehdi\\desktop\\clothshop\\clothshop.web\\pages\\admin\\users\\edituser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672A3E-4179-4D9E-B772-02D3F1B58441}|ClothShop.Web\\ClothShop.Web.csproj|solutionrelative:clothshop.web\\pages\\admin\\users\\edituser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB672A3E-4179-4D9E-B772-02D3F1B58441}|ClothShop.Web\\ClothShop.Web.csproj|c:\\users\\mohammadmehdi\\desktop\\clothshop\\clothshop.web\\pages\\admin\\users\\createuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB672A3E-4179-4D9E-B772-02D3F1B58441}|ClothShop.Web\\ClothShop.Web.csproj|solutionrelative:clothshop.web\\pages\\admin\\users\\createuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListDeleteUsers.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\Pages\\Admin\\Users\\ListDeleteUsers.cshtml.cs",
+              "RelativeDocumentMoniker": "ClothShop.Web\\Pages\\Admin\\Users\\ListDeleteUsers.cshtml.cs",
+              "ToolTip": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\Pages\\Admin\\Users\\ListDeleteUsers.cshtml.cs",
+              "RelativeToolTip": "ClothShop.Web\\Pages\\Admin\\Users\\ListDeleteUsers.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:24:52.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\Pages\\Admin\\Users\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "ClothShop.Web\\Pages\\Admin\\Users\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\Pages\\Admin\\Users\\Index.cshtml.cs*",
+              "RelativeToolTip": "ClothShop.Web\\Pages\\Admin\\Users\\Index.cshtml.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:24:31.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteUser.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\Pages\\Admin\\Users\\DeleteUser.cshtml.cs",
+              "RelativeDocumentMoniker": "ClothShop.Web\\Pages\\Admin\\Users\\DeleteUser.cshtml.cs",
+              "ToolTip": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\Pages\\Admin\\Users\\DeleteUser.cshtml.cs*",
+              "RelativeToolTip": "ClothShop.Web\\Pages\\Admin\\Users\\DeleteUser.cshtml.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:24:22.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditUser.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\Pages\\Admin\\Users\\EditUser.cshtml.cs",
+              "RelativeDocumentMoniker": "ClothShop.Web\\Pages\\Admin\\Users\\EditUser.cshtml.cs",
+              "ToolTip": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\Pages\\Admin\\Users\\EditUser.cshtml.cs*",
+              "RelativeToolTip": "ClothShop.Web\\Pages\\Admin\\Users\\EditUser.cshtml.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:24:10.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateUser.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\Pages\\Admin\\Users\\CreateUser.cshtml.cs",
+              "RelativeDocumentMoniker": "ClothShop.Web\\Pages\\Admin\\Users\\CreateUser.cshtml.cs",
+              "ToolTip": "C:\\Users\\MohammadMehdi\\Desktop\\ClothShop\\ClothShop.Web\\Pages\\Admin\\Users\\CreateUser.cshtml.cs*",
+              "RelativeToolTip": "ClothShop.Web\\Pages\\Admin\\Users\\CreateUser.cshtml.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:23:34.613Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

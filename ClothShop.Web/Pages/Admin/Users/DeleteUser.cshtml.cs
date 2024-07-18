@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ClothShop.Web.Pages.Admin.Users;
 
-[PermissionChecker(5)]
+[PermissionChecker(4)]
 public class DeleteUserModel : PageModel
 {
     private IUserService _userService;

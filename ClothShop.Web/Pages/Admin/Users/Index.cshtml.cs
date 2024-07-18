@@ -1,10 +1,11 @@
 ﻿using ClothShop.Core.DTOs.User;
+using ClothShop.Core.Security;
 using ClothShop.Core.Service.Interface;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ClothShop.Web.Pages.Admin.Users;
 
-//[PermissionChecker(2)]
+[PermissionChecker(1)]
 public class IndexModel : PageModel
 {
     private IUserService _userService;

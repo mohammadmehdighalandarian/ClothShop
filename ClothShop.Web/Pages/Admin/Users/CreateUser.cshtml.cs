@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ClothShop.Web.Pages.Admin.Users;
 
-[PermissionChecker(3)]
+[PermissionChecker(2)]
 public class CreateUserModel : PageModel
 {
     private IUserService _userService;

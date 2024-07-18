@@ -30,7 +30,7 @@ builder.Services.AddDbContext<ShopContext>(options =>
 
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IViewRenderService, RenderViewToString>();
-//builder.Services.AddTransient<IPermitionServices, PermitionServices>();
+//builder.Services.AddTransient<IPermissionService, Permiss>();
 //builder.Services.AddTransient<ICourseService, CourseService>();
 builder.Services.AddTransient<IOrderService, OrderService>();
 

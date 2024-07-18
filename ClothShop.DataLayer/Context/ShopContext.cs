@@ -30,6 +30,7 @@ public class ShopContext:DbContext
     public DbSet<UserProduct> UserProducts { get; set; }
     
     #endregion
+
     #region User
 
     public DbSet<Role> Roles { get; set; }
@@ -38,6 +39,7 @@ public class ShopContext:DbContext
     public DbSet<UserDiscountCode> UserDiscountCodes { get; set; }
 
     #endregion
+
     #region Order
 
     public DbSet<Discount> Discounts { get; set; }
@@ -45,6 +47,7 @@ public class ShopContext:DbContext
     public DbSet<OrderDetail> OrderDetails { get; set; }
 
     #endregion
+
     #region Wallet
 
     public DbSet<WalletType> WalletTypes { get; set; }
@@ -52,12 +55,12 @@ public class ShopContext:DbContext
 
     #endregion
 
-    //#region Permission
+    #region Permission
 
-    //public DbSet<Permision> Permission { get; set; }
-    //public DbSet<RolePermision> RolePermission { get; set; }
+    public DbSet<Permission> Permission { get; set; }
+    public DbSet<RolePermission> RolePermission { get; set; }
 
-    //#endregion
+    #endregion
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
