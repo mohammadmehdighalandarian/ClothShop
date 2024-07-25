@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothShop.Web", "ClothShop.Web\ClothShop.Web.csproj", "{EB672A3E-4179-4D9E-B772-02D3F1B58441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClothShop.Web", "ClothShop.Web\ClothShop.Web.csproj", "{EB672A3E-4179-4D9E-B772-02D3F1B58441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothShop.DataLayer", "ClothShop.DataLayer\ClothShop.DataLayer.csproj", "{51AC1266-9F20-4398-A76E-B6DDC9F15C43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClothShop.DataLayer", "ClothShop.DataLayer\ClothShop.DataLayer.csproj", "{51AC1266-9F20-4398-A76E-B6DDC9F15C43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothShop.Core", "ClothShop.Core\ClothShop.Core.csproj", "{8EB4CCBB-ADBA-4B2E-A780-A1FF6D65E8CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClothShop.Core", "ClothShop.Core\ClothShop.Core.csproj", "{8EB4CCBB-ADBA-4B2E-A780-A1FF6D65E8CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

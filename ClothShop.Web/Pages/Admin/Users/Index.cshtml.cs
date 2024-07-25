@@ -20,6 +20,9 @@ public class IndexModel : PageModel
     public void OnGet(int pageId=1,string filterUserName="",string filterEmail="")
     {
         UserForAdminViewModel = _userService.GetUsers(pageId,filterEmail,filterUserName);
+        ViewData["SearchByEmail"] = filterEmail;
+        ViewData["SearchByUserName"] = filterUserName;
+
     }
 
        

@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\course\demoes\" />
+    <Folder Include="wwwroot\Product\demoes\" />
   </ItemGroup>
 
   <ItemGroup>

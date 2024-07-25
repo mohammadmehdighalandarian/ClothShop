@@ -18,6 +18,7 @@ public interface IUserService
     bool ActiveAccount(string activeCode);
     int GetUserIdByUserName(string userName);
     void DeleteUser(int userId);
+    void ActiveUser(int userId);
 
 
     #region User Panel

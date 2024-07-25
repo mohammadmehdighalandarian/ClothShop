@@ -16,7 +16,7 @@
     <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                لیست کاربران سایت
+                لیست کاربران فعال سایت
             </div>
             <!-- /.panel-heading -->
             <div class="panel-body">
@@ -25,14 +25,14 @@
                         <div class="row">
                             <form>
                                 <div class="col-sm-5 col-md-5">
-                                    <input type="text" name="filterUserName" class="form-control" placeholder="نام کاربری"/>
+                                    <input type="text" name="filterUserName" value="@ViewData["SearchByUserName"]" class="form-control" placeholder="نام کاربری" />
                                 </div>
                                 <div class="col-sm-5 col-md-5">
-                                    <input type="text" name="filterEmail" class="form-control" placeholder="ایمیل"/>
+                                    <input type="text" name="filterEmail" value="@ViewData["SearchByEmail"]" class="form-control" placeholder="ایمیل" />
                                 </div>
                                 <div class="col-sm-2 col-md-2">
-                                    <button type="submit" class="btn btn-info" >بگرد</button>
-                                    <a class="btn btn-default btn-sm" href="/Admin/Users">خالی</a>
+                                    <button type="submit" class="btn btn-info" >جست و جو</button>
+                                    <a class="btn btn-info" href="/Admin/Users">خالی</a>
                                 </div>
                             </form>
                         </div>

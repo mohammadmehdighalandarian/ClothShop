@@ -18,9 +18,6 @@ public class EditUserModel : PageModel
         _permissionService = permissionService;
     }
 
-        
-
-        
     [BindProperty]
     public EditUserViewModel EditUserViewModel { get; set; }
     public void OnGet(int id)
@@ -31,10 +28,13 @@ public class EditUserModel : PageModel
 
     public IActionResult OnPost(List<int> SelectedRoles)
     {
-        if (!ModelState.IsValid)
-        {
-            return Page();
-        }
+       //To Do validate
+
+        //if (!ModelState.IsValid)
+        //{
+        //    ViewData["Roles"] = _permissionService.GetRoles();
+        //    return Page();
+        //}
 
         _userService.EditUserFromAdmin(EditUserViewModel);
 

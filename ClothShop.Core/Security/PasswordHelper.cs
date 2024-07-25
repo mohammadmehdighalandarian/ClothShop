@@ -1,12 +1,11 @@
 ﻿using System.Security.Cryptography;
+using System.Security.Policy;
 using System.Text;
 
 namespace ClothShop.Core.Security;
 
 public static class PasswordHelper
 {
-
-
 
     public static string EncodePasswordMd5(string pass) //Encrypt using MD5   
     {
@@ -20,6 +19,8 @@ public static class PasswordHelper
         //Convert encoded bytes back to a 'readable' string   
         return BitConverter.ToString(encodedBytes);
     }
+
+   
 
 
 }

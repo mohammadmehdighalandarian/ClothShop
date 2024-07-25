@@ -93,6 +93,14 @@ public class UserService:IUserService
         user.IsDelete = true;
         UpdateUser(user);
     }
+
+    public void ActiveUser(int userId)
+    {
+        User user = GetUserById(userId);
+        user.IsDelete = false;
+        UpdateUser(user);
+    }
+
     public InformationUserViewModel GetUserInformation(string username)
     {
         var user = GetUserByUserName(username);
@@ -252,6 +260,8 @@ public class UserService:IUserService
     {
         IQueryable<User> result = _context.Users;
 
+        result = result.Where(x => x.IsDelete == false);
+
         if (!string.IsNullOrEmpty(filterEmail))
         {
             result = result.Where(u => u.Email.Contains(filterEmail));
@@ -340,6 +350,7 @@ public class UserService:IUserService
                 AvatarName = u.UserAvatar,
                 Email = u.Email,
                 UserName = u.UserName,
+                Password = u.Password,
                 UserRoles = u.UserRoles.Select(r => r.RoleId).ToList()
             }).Single();
     }

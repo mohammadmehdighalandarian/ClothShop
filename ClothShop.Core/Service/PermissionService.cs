@@ -15,7 +15,7 @@ public class PermissionService : IPermissionService
     }
     public List<Role> GetRoles()
     {
-        return _context.Roles.ToList();
+        return _context.Roles.Where(x=>x.IsDelete==false).ToList();
     }
 
     public int AddRole(Role role)
