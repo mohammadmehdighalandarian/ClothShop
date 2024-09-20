@@ -1,0 +1,124 @@
+﻿@model ClothShop.DataLayer.Entities.User.Address
+@{
+    ViewData["Title"] = "افزودن آدرس";
+}
+
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">حيان</a></li>
+            <li class="breadcrumb-item active" aria-current="page"> افزودن آدرس جديد</li>
+        </ul>
+    </nav>
+</div>
+
+<main>
+    <div class="container">
+        <div class="user-account">
+            <div class="row">
+                <partial name="_SideBar" />
+                <div class="col-md-9 col-sm-8 col-xs-12">
+                    <section class="user-account-content">
+                        <header><h1> افزودن آدرس جديد </h1></header>
+                        <div class="inner form-layer">
+                            <form asp-action="AddNewAddress" method="post" enctype="multipart/form-data">
+
+                                <div class="row">
+                                    <input type="hidden" asp-for="UserId" aria-describedby="UserId">
+                                    
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <p class="help-block">
+                                            استان
+                                        </p>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="Province"><i class="zmdi zmdi-pin"></i></span>
+                                            <input type="text" class="form-control" asp-for="Province" placeholder="استان" aria-describedby="Province">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <p class="help-block">
+                                            شهر
+                                        </p>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="City"><i class="zmdi zmdi-pin"></i></span>
+                                            <input type="text" class="form-control" asp-for="City" placeholder="شهر" aria-describedby="City">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <p class="help-block">
+                                            محله
+                                        </p>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="Neighborhood"><i class="zmdi zmdi-pin"></i></span>
+                                            <input type="text" class="form-control" asp-for="Neighborhood" placeholder="محله" aria-describedby="Neighborhood">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <p class="help-block">
+                                            پلاك
+                                        </p>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="Plate"><i class="zmdi zmdi-pin"></i></span>
+                                            <input type="text" class="form-control" asp-for="Plate" placeholder="پلاك" aria-describedby="Plate">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <p class="help-block">
+                                            واحد
+                                        </p>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="ApartmentNo"><i class="zmdi zmdi-pin"></i></span>
+                                            <input type="text" class="form-control" asp-for="ApartmentNo" placeholder="واحد" aria-describedby="ApartmentNo">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <p class="help-block">
+                                            كد پستي
+                                        </p>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="PostCode"><i class="zmdi zmdi-pin"></i></span>
+                                            <input type="text" class="form-control" asp-for="PostCode" placeholder="كدپستي" aria-describedby="PostCode">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <p class="help-block">
+                                            نام گيرنده
+                                        </p>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="RecieverFName"><i class="zmdi zmdi-account"></i></span>
+                                            <input type="text" class="form-control" asp-for="RecieverFName" placeholder="نام گيرنده" aria-describedby="RecieverFName">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <p class="help-block">
+                                            نام خانوادگي گيرنده
+                                        </p>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="RecieverLName"><i class="zmdi zmdi-account"></i></span>
+                                            <input type="text" class="form-control" asp-for="RecieverLName" placeholder="نام خانوادگي گيرنده" aria-describedby="RecieverLName">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <p class="help-block">
+                                            شماره گيرنده
+                                        </p>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="RecieverPhoneNo"><i class="zmdi zmdi-phone"></i></span>
+                                            <input type="text" class="form-control" asp-for="RecieverPhoneNo" placeholder="شماره گيرنده" aria-describedby="RecieverPhoneNos">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <button class="btn btn-success"> ثبت </button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

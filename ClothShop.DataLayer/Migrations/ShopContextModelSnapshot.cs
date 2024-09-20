@@ -162,9 +162,6 @@ namespace ClothShop.DataLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
 
-                    b.Property<int>("CountInStock")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("datetime2");
 
@@ -246,6 +243,48 @@ namespace ClothShop.DataLayer.Migrations
                     b.ToTable("ProductComments");
                 });
 
+            modelBuilder.Entity("ClothShop.DataLayer.Entities.Product.ProductDetails.Color", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<bool>("isActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Colors");
+                });
+
+            modelBuilder.Entity("ClothShop.DataLayer.Entities.Product.ProductDetails.Image", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("ImageName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Images");
+                });
+
             modelBuilder.Entity("ClothShop.DataLayer.Entities.Product.ProductDetails.Material", b =>
                 {
                     b.Property<int>("MaterialId")
@@ -253,6 +292,9 @@ namespace ClothShop.DataLayer.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaterialId"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
 
                     b.Property<string>("MaterialName")
                         .IsRequired()
@@ -271,6 +313,9 @@ namespace ClothShop.DataLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SizeId"));
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<string>("SizeNO")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -287,6 +332,9 @@ namespace ClothShop.DataLayer.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TypeId"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
 
                     b.Property<string>("TypeName")
                         .IsRequired()
@@ -354,6 +402,9 @@ namespace ClothShop.DataLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductSizeId"));
 
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
@@ -413,6 +464,63 @@ namespace ClothShop.DataLayer.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserProducts");
+                });
+
+            modelBuilder.Entity("ClothShop.DataLayer.Entities.User.Address", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ApartmentNo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Neighborhood")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Plate")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PostCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Province")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecieverFName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecieverLName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RecieverPhoneNo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Addresses");
                 });
 
             modelBuilder.Entity("ClothShop.DataLayer.Entities.User.Role", b =>
@@ -604,7 +712,7 @@ namespace ClothShop.DataLayer.Migrations
                         .IsRequired();
 
                     b.HasOne("ClothShop.DataLayer.Entities.Product.Product", "Product")
-                        .WithMany()
+                        .WithMany("OrderDetails")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -674,6 +782,17 @@ namespace ClothShop.DataLayer.Migrations
                     b.Navigation("Product");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ClothShop.DataLayer.Entities.Product.ProductDetails.Image", b =>
+                {
+                    b.HasOne("ClothShop.DataLayer.Entities.Product.Product", "Products")
+                        .WithMany("Images")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("ClothShop.DataLayer.Entities.Product.ProductGroup", b =>
@@ -759,6 +878,17 @@ namespace ClothShop.DataLayer.Migrations
                     b.Navigation("Users");
                 });
 
+            modelBuilder.Entity("ClothShop.DataLayer.Entities.User.Address", b =>
+                {
+                    b.HasOne("ClothShop.DataLayer.Entities.User.User", "User")
+                        .WithMany("Addresses")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("ClothShop.DataLayer.Entities.User.UserDiscountCode", b =>
                 {
                     b.HasOne("ClothShop.DataLayer.Entities.Order.Discount", "Discount")
@@ -835,6 +965,10 @@ namespace ClothShop.DataLayer.Migrations
 
             modelBuilder.Entity("ClothShop.DataLayer.Entities.Product.Product", b =>
                 {
+                    b.Navigation("Images");
+
+                    b.Navigation("OrderDetails");
+
                     b.Navigation("ProductComments");
 
                     b.Navigation("ProductMaterials");
@@ -877,6 +1011,8 @@ namespace ClothShop.DataLayer.Migrations
 
             modelBuilder.Entity("ClothShop.DataLayer.Entities.User.User", b =>
                 {
+                    b.Navigation("Addresses");
+
                     b.Navigation("CourseComments");
 
                     b.Navigation("UserDiscountCodes");

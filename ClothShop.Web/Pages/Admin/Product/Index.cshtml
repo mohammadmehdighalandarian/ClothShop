@@ -21,7 +21,7 @@
             <div class="panel-body">
                 <div class="col-md-12" style="margin: 10px 0;">
 
-                    <a asp-page="CreateCourse" class="btn btn-outline btn-success">افزودن محصول جدید</a>
+                    <a asp-page="CreateProduct" class="btn btn-outline btn-success">افزودن محصول جدید</a>
 
                 </div>
 
@@ -52,15 +52,29 @@
                                     @item.SubGroup
                                 </td>
                                 <td>
-                                    @item.IsActive
+                                    @(item.IsActive == true ? "فعال" : "غیرفعال")
                                 </td>
                                 <td>
-                                    <a href="/Admin/Product/Product/@item.ProductId" class="btn btn-warning btn-sm">
-                                        ویرایش
-                                    </a>
-                                    <a href="/Admin/Product/DeleteProduct/@item.ProductId" class="btn btn-warning btn-sm">
-                                        حذف
-                                    </a>
+                                    <form method="post">
+
+
+                                        <a href="/Admin/Product/EditProduct/@item.ProductId" class="btn btn-warning btn-sm">
+                                            ویرایش
+                                        </a>
+                                        @{
+                                            if (item.IsActive == true)
+                                            {
+                                                <a href="/Admin/Product/DeActiveProduct/@item.ProductId" class="btn btn-danger btn-sm">
+                                                    غیرفعال
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <input asp-page-handler="Active" type="hidden" name="id" value="@item.ProductId" />
+                                                <button asp-page-handler="Active" type="submit" class="btn btn-success btn-sm">فعال سازی</button>
+                                            }
+                                        }
+                                    </form>
                                 </td>
                             </tr>
                         }

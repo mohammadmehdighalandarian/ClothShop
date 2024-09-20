@@ -9,6 +9,7 @@ public class ProductSize
     public int ProductSizeId { get; set; }
     public int ProductId { get; set; }
     public int SizeId { get; set; }
+    public int Count { get; set; }
 
     #region Relations
 

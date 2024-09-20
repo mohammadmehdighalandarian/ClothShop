@@ -1,0 +1,17 @@
+﻿@page "{id}"
+@model ClothShop.Web.Pages.Admin.Product.DeActiveProductModel
+@{
+    ViewData["Title"] = "حذف محصول";
+}
+
+<div class="container alert alert-danger">
+    <form method="post">
+        <input type="hidden" asp-for="Product.ProductId" />
+        <input type="hidden" asp-for="Product.ProductTitle" />
+        <h2>آیا از غیر فعال کردن "@Model.Product.ProductTitle" مطمئن هستید؟ </h2>
+        <p>
+            <input type="submit" value="غیرفعال کردن" class="btn btn-outline btn-danger" />
+            <a asp-page="Index" class="btn btn-outline btn-info">انصراف</a>
+        </p>
+    </form>
+</div>

@@ -8,6 +8,7 @@ public class UseType
     public int TypeId { get; set; }
     [Required]
     public string TypeName { get; set; }
+    public bool IsActive { get; set; }
 
     #region Relations
 

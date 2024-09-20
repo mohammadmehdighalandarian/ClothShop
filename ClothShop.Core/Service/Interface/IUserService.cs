@@ -29,8 +29,11 @@ public interface IUserService
     EditProfileViewModel GetDataForEditProfileUser(string username);
     void EditProfile(string username, EditProfileViewModel profile);
     bool CompareOldPassword(string oldPassword, string username);
-
+    List<Address> GetAddressByUserId(int userId);
+    Address GetActiveAddressByUserId(int userId);
     void ChangeUserPassword(string userName, string newPassword);
+    int ChangeAddress(int addressId);
+    void AddNewAddress(Address address, int userId);
 
     #endregion
 

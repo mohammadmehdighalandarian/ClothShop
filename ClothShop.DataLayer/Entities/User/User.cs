@@ -52,7 +52,7 @@ public class User
     public List<Wallet.Wallet> Wallets { get; set; }
     public List<UserDiscountCode> UserDiscountCodes { get; set; }
     public List<ProductComment> CourseComments { get; set; }
-    
+    public List<Address> Addresses { get; set; }
 
     #endregion
 }

@@ -1,0 +1,79 @@
+﻿@model List<ClothShop.DataLayer.Entities.User.Address>;
+@{
+    ViewData["Title"] = "آدرس ها";
+}
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">حيان</a></li>
+            <li class="breadcrumb-item active" aria-current="page"> آدرس ها </li>
+        </ul>
+    </nav>
+</div>
+
+<main>
+    <div class="container">
+        <div class="user-account">
+            <div class="row">
+                <partial name="_SideBar" />
+                <div class="col-md-9 col-sm-8 col-xs-12">
+                    <section class="user-account-content">
+                        <header>
+                            <h1>آدرس ها</h1>
+                        </header>
+                        <br />
+                        <div class="col-md-7 col-sm-8 col-xs-12">
+                            <a href="/UserPanel/AddAddress" class="btn btn-primary">افزودن آدرس</a>
+                        </div>
+                        <br />
+                        <div class="inner form-layer">
+                            <ul class="list-group">
+
+                                @foreach (var address in Model)
+                                {
+                                   
+                                    <li class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-md-10">
+                                                <p><strong>استان:</strong> @address.Province</p>
+                                                <p><strong>شهر:</strong> @address.City</p>
+                                                <p><strong>محله:</strong> @address.Neighborhood</p>
+                                                <p><strong>پلاک:</strong> @address.Plate</p>
+                                                <p><strong>واحد:</strong> @address.ApartmentNo</p>
+                                                <p><strong>کد پستی:</strong> @address.PostCode</p>
+                                                <p><strong>نام گیرنده:</strong> @address.RecieverFName @address.RecieverLName</p>
+                                                <p><strong>شماره تماس:</strong> @address.RecieverPhoneNo</p>
+
+                                                <div class="col-md-7 col-sm-8 col-xs-12">
+                                                        @if (!address.IsActive)
+                                                        {
+
+                                                        <a asp-action="ChangeAddress"
+                                                           asp-route-addressId="@address.Id" class="btn btn-primary">انتخاب آدرس</a>
+
+                                                        }
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-2 text-center">
+                                                    @if (address.IsActive)
+                                                    {
+                                                    <span class="label label-success">فعال</span>
+                                                    }
+                                                    else
+                                                    {
+                                                    <span class="label label-danger">غیر فعال</span>
+                                                    }
+                                            </div>
+                                        </div>
+                                    </li>
+                                   
+                                }
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,185 @@
+﻿@page
+@using ClothShop.DataLayer.Entities.Product.ProductDetails
+@model ClothShop.Web.Pages.Admin.Product.CreateProductModel
+@{
+    ViewData["Title"] = "افزودن محصول جدید";
+    List<UseType> useTypes = ViewData["UseTypes"] as List<UseType>;
+    List<Material> materials = ViewData["Materials"] as List<Material>;
+    List<Size> sizes = ViewData["Sizes"] as List<Size>;
+    int i = 0;
+}
+
+<div class="row">
+    <form method="post" enctype="multipart/form-data">
+        <div class="col-md-8">
+            <h2>اطلاعات محصول</h2>
+            <hr />
+            <div class="form-group">
+                <label>عنوان محصول</label>
+                <input type="text" asp-for="Product.ProductTitle" class="form-control">
+                <span asp-validation-for="Product.ProductTitle"></span>
+            </div>
+            <div class="form-group">
+                <label>گروه اصلی</label>
+                <select class="form-control" asp-for="Product.GroupId" asp-items="@(ViewData["Groups"] as SelectList)" id="Product_GroupId"></select>
+                <span asp-validation-for="Product.GroupId"></span>
+            </div>
+
+            <div class="form-group">
+                <label>گروه فرعی</label>
+                <select class="form-control" asp-for="Product.SubGroupId" asp-items="@(ViewData["SubGroups"] as SelectList)" id="Product_SubGroupId"></select>
+                <span asp-validation-for="Product.SubGroupId"></span>
+            </div>
+
+            <div class="form-group">
+                <label>شرح محصول</label>
+                <textarea class="form-control" asp-for="Product.ProductDescription" rows="10"></textarea>
+                <span asp-validation-for="Product.ProductDescription"></span>
+            </div>
+            <div class="form-group">
+                <label>قیمت محصول</label>
+                <input type="number" asp-for="Product.ProductPrice" value="0" class="form-control" />
+                <span asp-validation-for="Product.ProductPrice"></span>
+            </div>
+            <div class="form-group">
+                <label>کلمات کلیدی محصول</label>
+                <input type="text" asp-for="Product.Tags" class="form-control">
+                <p class="help-block">کلمات را با - جدا کنید</p>
+                <span asp-validation-for="Product.Tags"></span>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" asp-for="Product.IsActive" />
+                    محصول فعال
+                </label>
+            </div>
+
+            <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+        </div>
+        <div class="col-md-4">
+            <div id="imageContainer">
+                <img id="imgProduct" class="thumbnail" src="/Product/image/no-photo.jpg" />
+            </div>
+
+            <div class="form-group">
+                <label>انتخاب تصاویر</label>
+                <input type="file" name="imgProductUp" id="imgProductUp" multiple>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    لیست سایز ها
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <ul>
+                        @foreach (var size in sizes)
+                        {
+                            <li>
+                                <input type="checkbox" id="size_@size.SizeId" name="sizes" value="@size.SizeId" onchange="toggleNumberInput(@size.SizeId)" /> @size.SizeNO
+                                <input type="number" id="number_@size.SizeId" asp-for="SizesWithCount[i].Quantity" disabled />
+                                <input type="hidden" asp-for="SizesWithCount[i].SizeId" value="@size.SizeId" />
+                                @{
+                                    i++;
+                                }
+
+                            </li>
+                        }
+                    </ul>
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    لیست انواع جنس ها
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <ul>
+                        @foreach (var material in materials)
+                        {
+                            <li>
+                                <input type="checkbox" name="materials" value="@material.MaterialId" /> @material.MaterialName
+                            </li>
+                        }
+                    </ul>
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    لیست موارد استفاده
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <ul>
+                        @foreach (var useType in useTypes)
+                        {
+                            <li>
+                                <input type="checkbox" name="usetypes" value="@useType.TypeId" /> @useType.TypeName
+                            </li>
+                        }
+                    </ul>
+                </div>
+                <!-- /.panel-body -->
+            </div>
+
+        </div>
+    </form>
+</div>
+
+@section Scripts
+{
+    <script>
+        $("#Product_GroupId").change(function () {
+            var groupId = $(this).val();
+            $("#Product_SubGroupId").empty();
+            $.getJSON("/home/GetSubGroups/" + groupId, function (data) {
+                $.each(data, function () {
+                    $("#Product_SubGroupId").append('<option value="' + this.value + '">' + this.text + '</option>');
+                });
+            });
+        });
+
+
+        function readURL(input) {
+            if (input.files) {
+                for (let i = 0; i < input.files.length; i++) {
+                    const file = input.files[i];
+                    const reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        // Create a new image element for each image
+                        const img = document.createElement("img");
+                        img.classList.add("thumbnail"); // Add the thumbnail class
+                        img.src = e.target.result;
+                        document.getElementById("imageContainer").appendChild(img);
+                    };
+                    reader.readAsDataURL(file);
+                }
+            }
+        }
+
+        $("#imgProductUp").change(function () {
+            readURL(this);
+        });
+
+    </script>
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.3.2/classic/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('Product_ProductDescription', {
+            customConfig: '/js/Config.js'
+        });
+    </script>
+
+
+    <script>
+        function toggleNumberInput(sizeId) {
+            var checkbox = document.getElementById('size_' + sizeId);
+            var numberInput = document.getElementById('number_' + sizeId);
+            numberInput.disabled = !checkbox.checked;
+        }
+    </script>
+}

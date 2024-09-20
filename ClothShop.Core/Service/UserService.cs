@@ -60,7 +60,9 @@ public class UserService:IUserService
 
     public User GetUserByUserName(string username)
     {
-        return _context.Users.SingleOrDefault(u => u.UserName == username);
+        return _context
+                .Users
+                .SingleOrDefault(u => u.UserName == username);
     }
 
     public void UpdateUser(User user)
@@ -104,11 +106,20 @@ public class UserService:IUserService
     public InformationUserViewModel GetUserInformation(string username)
     {
         var user = GetUserByUserName(username);
+        var address = GetActiveAddressByUserId(user.UserId);
         InformationUserViewModel information = new InformationUserViewModel();
         information.UserName = user.UserName;
         information.Email = user.Email;
         information.RegisterDate = user.RegistertionDate;
         information.Wallet = BalanceUserWallet(username);
+        if (address is null)
+        {
+            information.Address = "نامشخص";
+        }
+        else
+        {
+            information.Address = $"{address.Province}|{address.City}|{address.Neighborhood}|پلاك:{address.Plate}واحد:{address.ApartmentNo}";
+        }
 
         return information;
 
@@ -117,11 +128,13 @@ public class UserService:IUserService
     public InformationUserViewModel GetUserInformation(int userId)
     {
         var user = GetUserById(userId);
+        
         InformationUserViewModel information = new InformationUserViewModel();
         information.UserName = user.UserName;
         information.Email = user.Email;
         information.RegisterDate = user.RegistertionDate;
         information.Wallet = BalanceUserWallet(user.UserName);
+        
 
         return information;
     }
@@ -138,13 +151,27 @@ public class UserService:IUserService
 
     public EditProfileViewModel GetDataForEditProfileUser(string username)
     {
-        return _context.Users.Where(u => u.UserName == username).Select(u => new EditProfileViewModel()
-        {
-            AvatarName = u.UserAvatar,
-            Email = u.Email,
-            UserName = u.UserName
+        var User = GetUserByUserName(username);
+        var address = GetActiveAddressByUserId(User.UserId); 
 
-        }).Single();
+        EditProfileViewModel EditUser=new EditProfileViewModel()
+        {
+            AvatarName = User.UserAvatar,
+            Email = User.Email,
+            UserName = User.UserName,
+            Province = address.Province,            
+            City = address.City,                   
+            Neighborhood = address.Neighborhood,    
+            ApartmentNo = address.ApartmentNo,      
+            Plate = address.Plate,                  
+            PostCode = address.PostCode,            
+            RecieverFName = address.RecieverFName,  
+            RecieverLName = address.RecieverLName,  
+            RecieverPhoneNo = address.RecieverPhoneNo
+        };
+
+        return EditUser;
+
     }
 
     public void EditProfile(string username, EditProfileViewModel profile)
@@ -185,11 +212,31 @@ public class UserService:IUserService
         return _context.Users.Any(u => u.UserName == username && u.Password == hashOldPassword);
     }
 
+    public List<Address> GetAddressByUserId(int userId)
+    {
+        return _context
+            .Addresses
+            .Where(x => x.UserId == userId)
+            .ToList();
+    }
+
+    public Address GetActiveAddressByUserId(int userId)
+    {
+        return _context.Addresses.SingleOrDefault(x => x.UserId == userId && x.IsActive == true);
+    }
+
     public void ChangeUserPassword(string userName, string newPassword)
     {
         var user = GetUserByUserName(userName);
         user.Password = PasswordHelper.EncodePasswordMd5(newPassword);
         UpdateUser(user);
+    }
+
+    public void AddNewAddress(Address address, int userId)
+    {
+        address.UserId=userId;
+        _context.Add(address);
+        _context.SaveChanges();
     }
 
     public int BalanceUserWallet(string userName)
@@ -339,6 +386,60 @@ public class UserService:IUserService
 
         return AddUser(addUser);
 
+    }
+
+    public int ChangeAddress(int addressId)
+    {
+        // Fetch the address with the specified ID, including the user to avoid a second database call
+        var address = _context.Addresses.SingleOrDefault(a => a.Id == addressId);
+
+        // Handle case where address is not found
+        if (address == null)
+        {
+            throw new ArgumentException("Address not found", nameof(addressId));
+        }
+
+        // Find the currently active address for the same user
+        var activeAddress = _context.Addresses
+            .SingleOrDefault(x => x.UserId == address.UserId && x.IsActive);
+
+        // If the address is already active, return the UserId without making changes
+        if (address.IsActive)
+        {
+            return address.UserId;
+        }
+
+        // Use a transaction to ensure both updates are applied atomically
+        using (var transaction = _context.Database.BeginTransaction())
+        {
+            try
+            {
+                // Set the new address as active
+                address.IsActive = true;
+                _context.Addresses.Update(address);
+
+                // If an active address was found, set it as inactive
+                if (activeAddress != null)
+                {
+                    activeAddress.IsActive = false;
+                    _context.Addresses.Update(activeAddress);
+                }
+
+                // Save changes to the database
+                _context.SaveChanges();
+
+                // Commit the transaction
+                transaction.Commit();
+            }
+            catch (Exception)
+            {
+                // Rollback the transaction if something goes wrong
+                transaction.Rollback();
+                throw; // Re-throw the exception to be handled by the caller
+            }
+        }
+
+        return address.UserId;
     }
 
     public EditUserViewModel GetUserForShowInEditMode(int userId)

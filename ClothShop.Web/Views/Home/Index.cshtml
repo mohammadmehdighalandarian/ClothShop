@@ -1,4 +1,5 @@
-﻿@* @model Tuple<List<LearningWeb_Core.DTOs.Course.ShowCourseInIndexViewModel>,int> *@
+﻿@using ClothShop.Core.DTOs.Product
+@model Tuple<List<ClothShop.Core.DTOs.Product.ShowProductListItemViewModel>,int>
 @{
     ViewData["Title"] = "خانه";
 }
@@ -6,14 +7,14 @@
 @section SearchBox
     {
     <header>
-        <a href="" class="logo"><img src="/images/logo.png"></a>
-        <h1> با اساتید مجرب و کارآزموده در خودآموز تاپ لرن </h1>
-        <h2> آموزش ببینید ، تجربه کسب کنید و بازار کار شوید </h2>
-        <h3> با کمترین هزینه خودت یاد بگیر </h3>
+        @* <a href="" class="logo"><img src="/images/logo.png"></a> *@
+        <h1> به فروشگاه لباس حيان خوش آمديد </h1>
+        <h2> در اينجا ميتوانيد انواع لباس،متناسب با سليقه خود پيدا كنيد </h2>
+        <h3> با کمترین هزینه خريداري كنيد </h3>
     </header>
     <div class="search-form">
-        <form action="/Course" method="get">
-            <input type="text" name="filter" id="autFilter" placeholder="چی دوست داری یاد بگیری ؟">
+        <form asp-controller="Product" asp-action="Index" method="get">
+            <input type="text" name="filter" id="autFilter" placeholder="دنبال چه محصولي هستي ؟">
             <button><i class="zmdi zmdi-search"></i></button>
         </form>
     </div>
@@ -22,14 +23,13 @@
     <div class="container">
         <section class="terms-items">
             <header>
-                <h2> آخرین دوره های تاپ لرن </h2>
-                <a href=""> مشاهده همه دوره ها </a>
+                <h2> آخرین محصولات </h2>
             </header>
             <div class="row">
 
-                @*<cache expires-after="@TimeSpan.FromMinutes(5)">
-                @await Component.InvokeAsync("LatesCourse")
-                </cache>*@
+                <cache expires-after="@TimeSpan.FromMinutes(5)">
+                    @await Component.InvokeAsync("LatesProduct")
+                </cache>
 
             </div>
         </section>
@@ -38,28 +38,29 @@
 
         <section class="terms-items">
             <header>
-                <h2> دوره های محبوب تاپ لرن </h2>
-                <a href=""> مشاهده همه دوره ها </a>
+                <h2> محصولات محبوب حيان </h2>
+                @* <a href=""> مشاهده همه محصولات </a> *@
             </header>
             <div class="row">
 
 
-                @* @foreach (var item in Model.Item1)
+                @foreach (var item in Model.Item1)
                 {
                     <partial name="_BoxProduct" model="@item" />
-                } *@
+                }
 
 
-                @*@{
-                List<ShowCourseListItemViewModel> popular = ViewBag.PopularCourse as List<ShowCourseListItemViewModel>;
+                @{
+                    List<ShowProductListItemViewModel> popular = ViewBag.PopularCourse as
+                        List<ShowProductListItemViewModel>;
                 }
                 @if (popular != null)
                 {
                 foreach (var item in popular)
                 {
-                <partial name="_BoxCourse" model="@item" />
+                <partial name="_BoxProduct" model="@item" />
                 }
-                }*@
+                }
 
             </div>
         </section>
@@ -71,7 +72,7 @@
     <script>
         $(document).ready(function () {
             $("#autFilter").autocomplete({
-                source: 'api/courseapi/search'
+                source: 'api/Productapi/search'
             });
         });
     </script>

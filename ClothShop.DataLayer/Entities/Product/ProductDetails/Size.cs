@@ -7,6 +7,7 @@ public class Size
     [Key]
     public int SizeId { get; set; }
     public string SizeNO { get; set; }
+    public bool IsActive { get; set; }
 
     #region Relations
 

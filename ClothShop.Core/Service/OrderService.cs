@@ -164,10 +164,10 @@ public class OrderService : IOrderService
         if (discount == null)
             return DiscountUseType.NotFound;
 
-        if (discount.StartDate != null && discount.StartDate < DateTime.Now)
-            return DiscountUseType.ExpierDate;
+        if (discount.StartDate != null && discount.StartDate > DateTime.Now)
+            return DiscountUseType.NotStarted;
 
-        if (discount.EndDate != null && discount.EndDate >= DateTime.Now)
+        if (discount.EndDate != null && discount.EndDate <= DateTime.Now)
             return DiscountUseType.ExpierDate;
 
 

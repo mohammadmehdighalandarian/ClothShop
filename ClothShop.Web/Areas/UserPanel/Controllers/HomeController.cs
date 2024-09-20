@@ -1,9 +1,11 @@
 ﻿using ClothShop.Core.DTOs.User;
 using ClothShop.Core.Service.Interface;
+using ClothShop.DataLayer.Entities.User;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace ClothShop.Web.Areas.UserPanel.Controllers
 {
@@ -50,6 +52,7 @@ namespace ClothShop.Web.Areas.UserPanel.Controllers
             return View();
         }
 
+       
 
         [Route("UserPanel/ChangePassword")]
         [HttpPost]
@@ -72,9 +75,9 @@ namespace ClothShop.Web.Areas.UserPanel.Controllers
             return View();
         }
 
+        
 
+        
 
-
-     
     }
 }

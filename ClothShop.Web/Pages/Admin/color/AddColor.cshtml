@@ -1,0 +1,39 @@
+﻿@page
+@using ClothShop.DataLayer.Entities.Product.ProductDetails
+@model ClothShop.Web.Pages.Admin.color.AddColorModel
+@{
+    ViewData["Title"] = "افزودن رنگ";
+    List<Color> permissions = ViewData["Color"] as List<Color>;
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">افزودن رنگ جدید</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<div class="row">
+    <form method="post" enctype="multipart/form-data">
+        <div class="col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    رنگ
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label>عنوان رنگ</label>
+                        <input type="text" asp-for="color.name" class="form-control">
+                    </div>
+                    <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+
+    </form>
+</div>
+
+

@@ -9,16 +9,18 @@ using Microsoft.Extensions.Options;
 
 namespace ClothShop.DataLayer.Context;
 
-public class ShopContext:DbContext
+public class ShopContext : DbContext
 {
     public ShopContext(DbContextOptions<ShopContext> options) : base(options)
     {
-        
+
     }
 
     #region Product
 
     public DbSet<Product> Products { get; set; }
+    public DbSet<Image> Images { get; set; }
+    public DbSet<Color> Colors { get; set; }
     public DbSet<Material> Materials { get; set; }
     public DbSet<Size> Sizes { get; set; }
     public DbSet<UseType> UseTypes { get; set; }
@@ -28,7 +30,7 @@ public class ShopContext:DbContext
     public DbSet<ProductSize> ProductSizes { get; set; }
     public DbSet<ProductUseType> ProductUseTypes { get; set; }
     public DbSet<UserProduct> UserProducts { get; set; }
-    
+
     #endregion
 
     #region User
@@ -37,6 +39,7 @@ public class ShopContext:DbContext
     public DbSet<User> Users { get; set; }
     public DbSet<UserRole> UserRoles { get; set; }
     public DbSet<UserDiscountCode> UserDiscountCodes { get; set; }
+    public DbSet<Address> Addresses { get; set; }
 
     #endregion
 

@@ -1,0 +1,10 @@
+﻿@model ClothShop.Core.DTOs.Product.ShowProductListItemViewModel
+<!-- col -->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 term-col">
+    <article>
+        <a href="/ShowProduct/@Model.ProductId" class="img-layer"><img  src="/Product/image/@Model.ImageName"></a>
+        <h2><a href="/ShowProduct/@Model.ProductId"> @Model.Title </a></h2>
+        <span> @((Model.Price==0)?"رایگان":Model.Price.ToString("#,0")) تومان </span>
+    </article>
+</div>
+<!-- /col -->

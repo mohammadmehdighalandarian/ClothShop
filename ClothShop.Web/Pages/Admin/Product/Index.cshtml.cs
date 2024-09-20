@@ -1,6 +1,7 @@
 using ClothShop.Core.DTOs.Product;
 using ClothShop.Core.Security;
 using ClothShop.Core.Service.Interface;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 
@@ -19,5 +20,11 @@ public class IndexModel : PageModel
     public void OnGet()
     {
         Products = _productService.GetProductsForAdmin();
+    }
+
+    public IActionResult OnPostActive(int id)
+    {
+        _productService.ActiveProduct(id);
+        return RedirectToPage("index");
     }
 }

@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\MohammadMehdi\Desktop\ClothShop\ClothShop.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Areas/UserPanel/Views/Address/AddAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEFkZHJlc3NcQWRkQWRkcmVzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Areas/UserPanel/Views/Address/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEFkZHJlc3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Areas/UserPanel/Views/Home/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEhvbWVcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,6 +62,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/color/AddColor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cY29sb3JcQWRkQ29sb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/color/EditColor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cY29sb3JcRWRpdENvbG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/color/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cY29sb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Discount/CreateDiscount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGlzY291bnRcQ3JlYXRlRGlzY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,6 +90,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Material/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWF0ZXJpYWxcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Material/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWF0ZXJpYWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Material/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWF0ZXJpYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/ProductGroups/CreateGroup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdEdyb3Vwc1xDcmVhdGVHcm91cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -80,6 +112,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/ProductGroups/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdEdyb3Vwc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Product/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Product/DeActiveProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdFxEZUFjdGl2ZVByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Product/Index.cshtml]
@@ -100,6 +140,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Roles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Size/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2l6ZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Size/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2l6ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Size/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2l6ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Pages/Admin/Users/ActiveUser.cshtml]
@@ -174,12 +226,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Views/Product/ShowComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93Q29tbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Views/Product/ShowProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Views/Shared/Components/LatesProduct/LatesProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGF0ZXNQcm9kdWN0XExhdGVzUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Views/Shared/Components/ProductGroupComponent/ProductGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdEdyb3VwQ29tcG9uZW50XFByb2R1Y3RHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Views/Shared/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Views/Shared/_ActivationEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BY3RpdmF0aW9uRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Views/Shared/_BoxProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb3hQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MohammadMehdi/Desktop/ClothShop/ClothShop.Web/Views/Shared/_DefaultLayout.cshtml]

@@ -1,0 +1,346 @@
+﻿@using System.IO
+@using System.Text
+@using ClothShop.Core.Convertors
+@using ClothShop.Core.Service.Interface
+@using ClothShop.DataLayer.Entities.Product
+@using Microsoft.AspNetCore.Connections.Features
+@using ClothShop.DataLayer.Entities.Product.ProductDetails
+@model ClothShop.DataLayer.Entities.Product.Product
+
+@inject IOrderService _OrderService;
+
+@{
+    ViewData["Title"] = Model.ProductTitle;
+
+    string[] imagePaths = ViewData["ImagePaths"] as string[];
+
+
+    bool IsUserInCourse = false;
+
+}
+
+@section MetaTag
+{
+    <meta name=googlebot content=index,follow>
+    <meta name=robots content=noodp,noydir>
+    <meta name=description content="شرح صفحه">
+
+    <meta property=og:site_name value="فروشگاه لباس حيان">
+    <meta property=og:title content="@Model.ProductTitle">
+    <meta property=og:url content="https://toplearn.com/ShowProduct/@Model.ProductTitle" />
+    <meta property=og:image content="/Product/image/@Model.ProductImageName">
+    <meta property=og:image:url content="/Product/image/@Model.ProductImageName" />
+    <meta property=og:image:width content="700">
+
+    <meta property=og:image:type content="image/jpg">
+    <meta property=og:description content="">
+    <meta property=og:price:currency content="IRR">
+    <meta property=og:locale content="ir_FA">
+}
+
+
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#"> حيان </a></li>
+            <li class="breadcrumb-item active"><a href="#"> محصولات </a></li>
+            <li class="breadcrumb-item active" aria-current="page"> @Model.ProductTitle </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="container">
+    <section class="term-content">
+        <header><h1> @Model.ProductTitle </h1></header>
+        <div class="row">
+
+            <div class="col-md-8 col-sm-12 col-xs-12 pull-left">
+                <section class="term-description">
+                    <div class="product-image-container">
+                        <img id="product-image" src="/Product/image/@Model.ProductImageName" alt="Product Image"
+                             width="400" height="300" />
+                        <button id="prev-image" class="arrow" onclick="prevImage()">&gt;</button>
+                        <button id="next-image" class="arrow" onclick="nextImage()">&lt;</button>
+                    </div>
+
+                    <br />
+                    <h1>توضيحات:</h1>
+                    @Html.Raw(Model.ProductDescription)
+                </section>
+
+                <section class="user-comments">
+                    <header><h3> نظرات کاربران </h3></header>
+                    <div class="inner">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <form asp-controller="Product" asp-action="CreateComment"
+                                  data-ajax="true"
+                                  data-ajax-method="post"
+                                  data-ajax-mode="replace"
+                                  data-ajax-update="#listComment"
+                                  data-ajax-success="Success">
+                                <input type="hidden" name="comment.ProductId" value="@Model.ProductId" />
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="comment_Comment" name="comment.Comment" placeholder="متن نظر"></textarea>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <button type="submit" class="btn btn-success"> ثبت دیدگاه </button>
+                                    </div>
+                                </div>
+                            </form>
+                        }
+                        else
+                        {
+                            <div class="alert alert-danger">
+                                جهت درج نظر باید وارد سایت شوید
+                            </div>
+                        }
+
+                        <div class="comment-list" id="listComment">
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="col-md-4 col-sm-12 col-xs-12 pull-right">
+                <form asp-controller="Product" asp-action="BuyProduct" method="post">
+                    <div class="statistics">
+                        <ul>
+                            <li>
+                                <label>سايز</label>
+                                <select class="form-control" id="ProductSize_Id" name="buyProduct.SizeId">
+                                    @foreach (var item in ViewData["Sizes"] as List<SelectListItem>)
+                                    {
+                                        if (item.Disabled)
+                                        {
+                                            @* <option value="@item.Value" disabled>@item.Text</option> *@
+                                            <option value="@item.Value" >@item.Text</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@item.Value">@item.Text</option>
+                                        }
+                                    }
+                                </select>
+                            </li>
+
+                            <li>
+                                <label>رنگ</label>
+                                <select class="form-control" name="buyProduct.ColorId" asp-items="@(ViewData["Color"] as SelectList)">
+                                </select>
+                            </li>
+
+                            <li>
+                                <label>جنس</label>
+
+                                <select class="form-control" id="buyProduct.MaterialId" name="buyProduct.SizeId">
+                                    @foreach (var item in ViewData["Material"] as List<SelectListItem>)
+                                    {
+
+                                        <option value="@item.Value">@item.Text</option>
+
+                                    }
+                                </select>
+
+                                
+                            </li>
+                        </ul>
+
+                        <br />
+                        <div>
+                            <input type="hidden" name="buyProduct.ProductId" value="@Model.ProductId" />
+                            <button style="width: 320px" type="submit" class="btn btn-primary">
+                                افزودن به سبد خرید
+                            </button>
+                        </div>
+
+
+                    </div>
+
+
+                </form>
+
+
+                @* <article class="teacher-info">
+                <img src="/UserAvatar/@Model.User.UserAvatar">
+                <h2> مدرس : @Model.User.UserName </h2>
+                </article> *@
+
+                <article class="term-info">
+                    <h2> اطلاعات محصول </h2>
+                    <ul>
+                        @* <li>سطح دوره: @Model.CourseStatus.StatusTitle</li>
+                        <li>وضعیت دوره: @Model.CourseLevel.LevelTitle</li> *@
+
+
+
+                        <li>نام محصول : @Model.ProductTitle</li>
+                        @{
+                            StringBuilder Material = new StringBuilder();
+                            foreach (var item in ViewData["Material"] as List<SelectListItem>)
+                            {
+                                Material.Append(item.Text + "-");
+                            }
+                            Material.Remove(Material.Length - 1, 1);
+                            
+                        }
+                        <li>جنس هاي موجود :@Material </li>
+
+
+                        @{
+
+                            StringBuilder result = new StringBuilder();
+                            foreach (var item in ViewData["Sizes"] as List<SelectListItem>)
+                            {
+                                result.Append(item.Text + "-");
+                            }
+                            result.Remove(result.Length - 1, 1);
+                        }
+                        <li>سايز هاي موجود :@result </li>
+
+
+                        @{
+                            var ColorList = ViewData["Color"] as SelectList;
+                            var ColorString = string.Join(", ", ColorList.Select(item => $"{item.Text} "));
+                        }
+                        <li>رنگ های موجود :@ColorString </li>
+
+                        @if (Model.IsActive)
+                        {
+                            <li>وضعيت محصول : موجود</li>
+                        }
+                        else
+                        {
+                            <li>وضعيت محصول : ناموجود</li>
+                        }
+
+                        <li>فروشنده محصول :حیان </li>
+                        <li>
+                            <div class="price-container">
+                                قیمت : @Model.ProductPrice.ToString("#,0") تومان
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+
+                <div class="share-layer">
+                    <span> به اشتراک گذاری </span>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://toplearn.com/ShowCourse/@Model.ProductId"><i class="zmdi zmdi-facebook"></i></a>
+                    <a href="https://plus.google.com/share?url=https://toplearn.com/ShowCourse/@Model.ProductId"><i class="zmdi zmdi-google-old"></i></a>
+                    <a href="https://twitter.com/intent/tweet?url=https://toplearn.com/ShowCourse/@Model.ProductId"><i class="zmdi zmdi-twitter"></i></a>
+                    <a href=""><i class="zmdi zmdi-linkedin"></i></a>
+                </div>
+
+                @if (Model.Tags != null)
+                {
+                    <div class="tags-layer">
+                        @foreach (string tag in Model.Tags.Split('-', StringSplitOptions.RemoveEmptyEntries))
+                        {
+                            <a href="/Product?filter=@tag"> @tag </a>
+                        }
+                    </div>
+                }
+
+            </aside>
+        </div>
+    </section>
+</div>
+
+@section Scripts
+{
+
+    <script src="/js/jquery.unobtrusive-ajax.min.js"></script>
+
+    <script>
+        function Success() {
+            $("#comment_Comment").val("");
+        }
+
+        $(function () {
+            $("#listComment").load("/Product/ShowComment/" + @Model.ProductId);
+        });
+
+        function pageComment(pageid) {
+            $("#listComment").load("/Product/ShowComment/" + @Model.ProductId+"?pageId=" + pageid);
+        }
+
+        $(function () {
+            $("#vot").load("/Product/ProductVote/@Model.ProductId");
+        });
+
+        function vote(vote) {
+            $("#vot").fadeOut('slow');
+            $("#vot").load("/Product/AddVote/@(Model.ProductId)?vote=" + vote);
+            $("#vot").fadeIn('slow');
+        }
+    </script>
+
+    <script>
+
+        const images = @Html.Raw(Json.Serialize(imagePaths)); // Pass the image paths to JS
+        let currentImageIndex = 0;
+
+        const productImage = document.getElementById("product-image");
+
+        function prevImage() {
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+            productImage.src = images[currentImageIndex];
+        }
+
+        function nextImage() {
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            productImage.src = images[currentImageIndex];
+        }
+    </script>
+}
+
+<style>
+    .product-image-container {
+        position: relative; /* Allow positioning of buttons */
+    }
+
+    #product-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    #prev-image {
+        left: 10px;
+    }
+
+    #next-image {
+        right: 10px;
+    }
+
+    #product-image {
+        max-width: 700px; /* Limit the width */
+        height: 400px; /* Height will scale automatically */
+    }
+
+    .price-container {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        text-align: center;
+        box-shadow: none;
+        transition: background-color 0.3s ease;
+    }
+</style>

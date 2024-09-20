@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using ClothShop.DataLayer.Entities.Order;
 using ClothShop.DataLayer.Entities.Product.ProductDetails;
 
 namespace ClothShop.DataLayer.Entities.Product;
@@ -28,16 +29,11 @@ public class Product
     public int? SubGroupId { get; set; }
 
     [Required]
-    public int CountInStock { get; set; }
-
-    [Required]
     public bool IsActive { get; set; }
 
     public string Tags { get; set; }
     public DateTime CreationDate { get; set; }
     public DateTime? UpdateDate { get; set; }
-
-
 
     #region Relations
 
@@ -47,6 +43,8 @@ public class Product
     [ForeignKey("SubGroupId")]
     public ProductGroup ProductSubGroup { get; set; }
 
+    public List<Image> Images { get; set; }
+    public List<OrderDetail> OrderDetails { get; set; }
     public List<ProductSize> ProductSizes { get; set; }
     public List<ProductMaterial> ProductMaterials { get; set; }
     public List<ProductComment> ProductComments { get; set; }
